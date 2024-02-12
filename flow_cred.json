@@ -1,0 +1,13 @@
+{
+    "c156d588bb3ba207": {},
+    "c44ba9b12aa0b19b": {},
+    "2b3fe1486cce4f95": {},
+    "ab6475898c71d570": {
+        "user": "${mongoUserName}",
+        "password": "${mongoPassword}"
+    },
+    "6f70f661f167dd24": {
+        "password": "ydnl nmxs gtjb elom"
+    },
+    "a8c73a02ead9c281": {}
+}
