@@ -152,9 +152,7 @@
             "87636fd41a5396ef"
         ],
         "x": 14,
-        "y": 1259,
-        "w": 732,
-        "h": 902
+        "y": 1259
     },
     {
         "id": "d78377c07a215120",
@@ -264,9 +262,7 @@
             "1b137c6a843f5af0"
         ],
         "x": 14,
-        "y": 19,
-        "w": 1972,
-        "h": 1222
+        "y": 19
     },
     {
         "id": "2229ae9934019399",
@@ -290,9 +286,7 @@
             "a2b1bc579a4c0ced"
         ],
         "x": 774,
-        "y": 1339,
-        "w": 1012,
-        "h": 162
+        "y": 1339
     },
     {
         "id": "5bf7ccb6c6709633",
@@ -347,9 +341,7 @@
             "5164464dd17d2bc2"
         ],
         "x": 774,
-        "y": 1539,
-        "w": 1652,
-        "h": 622
+        "y": 1539
     },
     {
         "id": "3b2ecc05f3cef5f7",
@@ -368,9 +360,7 @@
             "9a2fd6bca89c1339"
         ],
         "x": 54,
-        "y": 3239,
-        "w": 672,
-        "h": 162
+        "y": 3239
     },
     {
         "id": "a8bcf74ef7690d27",
@@ -436,9 +426,7 @@
             "886b77fdbc925b1b"
         ],
         "x": 24,
-        "y": 2179,
-        "w": 1242,
-        "h": 962
+        "y": 2179
     },
     {
         "id": "398457a4bc6d8725",
@@ -516,9 +504,7 @@
             "a8a3190cf08137cd"
         ],
         "x": 54,
-        "y": 3419,
-        "w": 3572,
-        "h": 722
+        "y": 3419
     },
     {
         "id": "b0ef14992c694846",
@@ -686,9 +672,7 @@
             "502ec2c0409b3f47"
         ],
         "x": 114,
-        "y": 19,
-        "w": 872,
-        "h": 382
+        "y": 19
     },
     {
         "id": "9005e0b501e3898f",
@@ -757,9 +741,7 @@
             "5892c744245e35ff"
         ],
         "x": 14,
-        "y": 19,
-        "w": 1692,
-        "h": 922
+        "y": 19
     },
     {
         "id": "ab6475898c71d570",
@@ -1151,7 +1133,7 @@
         "fieldType": "msg",
         "format": "css",
         "syntax": "mustache",
-        "template": "\n\n/* _____________BASE_________________ */\nbody section{\n    background-color: #ffffff!important;\n}\ninput, .rc-select-show-arrow.rc-select-multiple .rc-select-selector, .select-button{\n  border-radius: 4px !important;\n}\n/* button {\n  border-radius: 4px !important;\n} */\nlabel {\n  border-radius: 4px !important;\n}\n\nspan > textarea {\n  border-radius: 4px !important;\n}\n.bp3-button .bp3-input-group{\n  border-radius: 8px!important;\n}\n::-webkit-scrollbar {\n  width: 0.1px;\n}\n\n\n/*__________________Modal________________________ */\ndiv[id=\"comment-overlay-wrapper-0\"]\n  .bp3-overlay-content.bp3-overlay-appear-done {\n  width: 50% !important;\n  height: 100vh !important;\n  max-height: 100vh !important;\n  right: 0px !important;\n}\n\n.cheker > div > div > div > div span {\n  border-radius: 180px !important;\n  outline: none !important;\n  border: none !important;\n}\n.cheker > div > div > div > div span:before {\n  border-radius: 180px !important;\n  background-color: rgb(20, 22, 20) !important;\n  border: none !important;\n}\n.activtab > div > div > div > div > div > div > div img {\n  border-radius: 180px !important;\n  background-color: #1d1b1b !important;\n}\n\n.init {\n  position: initial !important;\n}\n.hide {\n  display: none;\n  height: 20px !important;\n}\n\n.activ {\n  display: block;\n}\n\n.rc-pagination-prev button::after {\n  content: \"\\25c4\" !important;\n  display: block !important;\n  border: none !important;\n}\n.rc-pagination-next button::after {\n  content: \"\\25ba\" !important;\n  display: block !important;\n}\n.rc-pagination-item {\n  display: none !important;\n}\n\n.sidemenu {\n  width: 50% !important;\n  padding-left: 10px !important;\n  padding-right: 30px !important;\n  height: 100vh !important; \n  max-height: 100vh !important;\n  min-height: 100vh !important;\n  transform: translate3d(0px, 0px, 0px) !important;\n  right: 0px !important;\n  background-color: #FFFFFF !important;\n  background-image: linear-gradient(180deg, #ffffff 25%, #68adeed9 100%) !important;\n}\n\n\n\n.setBtnRight {\n  left: unset !important;\n  right: 0 !important;\n}\n\n.setBtnAlmostRight {\n  left: unset !important;\n  right: 10px !important;\n}\n\n.setWidthHundredPercent {\n  width: 100% !important;\n}\n\n.setWidthNintyEightPercent {\n  width: 98% !important;\n}\n\n.setWidthHundredPercentNestedDivs > div > div > div > div > div > div > div > div > div > div > div > div > div {\n  width: 100% !important;\n}\n\n.setWidthNinetyFivePercent {\n  width: 95% !important;\n}\n\n.setWidthNinetyFivePercentNestedDivs > div > div > div > div > div > div > div > div > div > div > div > div > div {\n  width: 95% !important;\n}\n\n.setItemsCenter > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n}\n\n.setPositionStatic {\n  position: static !important;\n}\n\n.addTextToShadow span{\n  text-shadow: 1px 2px 5px black !important;\n}\n\n.modalListItemWrapper > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n}\n\n.modalListItem {\n  position: static !important;\n}\n.modalListFirstItem {\n  order: 1 !important;\n}\n\n.modalListSecondItem {\n  order: 2 !important;\n}\n.modalListThirdItem {\n  order: 3 !important;\n}\n.modalListFourthItem {\n  order: 4 !important;\n}\n.modalListFifthItem {\n  order: 5 !important;\n}\n\n.flexSetGap {\n  gap: 10px;\n}\n\n.flexGrow {\n  flex-grow: 1;\n}\n\n\n\n.loginForm_wrapper > div > div > div > div > div {\n  border-radius: 30px !important\n}\n.loginForm_wrapper:before,\n.loginForm_wrapper:after {\n  z-index: -1 !important;\n  position: absolute !important;\n  content: \"\" !important;\n  bottom: 18px !important;\n  left: 10px !important;\n  width: 50% !important;\n  top: 80% !important;\n  max-width: 300px !important;\n  background: #777 !important;\n  box-shadow: 0 18px 10px #777 !important;\n  transform: rotate(-3deg) !important;\n}\n\n.loginForm_wrapper:after {\n  transform: rotate(3deg) !important;\n  right: 10px !important;\n  left: auto !important;\n}\n\n.loginForm_btnWrapper > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n}\n\n.loginForm_divider {\n  flex-grow: 1 !important;\n}\n\n.attributeTable div.tableWrap div[role='cell'] button {\n  border-radius: 50% !important;\n}\n\n.deleteAttrGroupModal_wrapper > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n}\n\n.main_tableTwo  {\n width: 98%!important;\n}\n\n.main_tableTwo>div>div>div>div>div:nth-child(1){\nwidth: 100%!important;\n}\n.main_tableTwo>div>div>div>div>div:nth-child(2){\nwidth: 100%!important;\n}\n.main_tableTwo>div>div>div>div>div>div{\n  width: 100%!important;\n}\n.main_table input.bp3-input{\n  height: 20px!important;\n}\n\n.addUserModal_textInput input {\n  height: 40px !important;\n}\n\n\n.addUserModal_select button {\n  height: 40px !important;\n}\n\n.addUserModal_multiSelect div.rc-select-multiple {\n  height: 40px !important;\n}\n\n.accordionBtnWrapper button{\n  border-radius: 5px !important;\n  margin-bottom: 10px !important;\n  border: 1px solid #3366FF !important;    \n}\n\n.editUserModal_table div.th.header-reorder {\n  flex: 726 0 auto !important;\n}\n\n.editUserModal_table div.tbody div.tr > div.td {\n  flex: 726 0 auto !important;\n}\n\n\n.tabs {\n  top:0 !important;\n  left: 0 !important; \n  height: 100vh !important;\n  width: 100% !important;\n  padding: 10px !important;\n  background-image: linear-gradient(180deg, #ffffff 25%, #68adeed9 100%) !important;\n\n}\n.tabs>div>div>div>div>div {\n  background-color: transparent !important;\n}\n\n.tabs>div>div>div>div {\n  box-shadow: none !important;\n}\n\n.center_container{\n  top: 50% !important;\n  left: 50% !important;\n  transform: translate(-50%, -50%) !important;\n}\n\n.sidebar{\n  position: fixed !important;\n  height: 100vh !important;\n  top: 0 !important;\n  left: 0 !important;\n  padding: 0px !important;\n  width: 160px !important;\n  box-shadow: 9px 0px 4px -6px rgba(199,199,199,0.7) !important;\n  background-image: linear-gradient(180deg, #ffffff 25%, #68adeed9 100%) !important;\n  z-index: 5 !important;\n}\n.header{\n  top: 0 !important;\n  left: 167px !important;\n  padding: 0px !important; \n  width: calc(100% - 160px) !important;\n  height: 60px !important;\n}\n.accordion{\n  padding: 9px !important;\n  width: 100% !important;\n  \n}\n.accordion .bp3-button:not([class*=bp3-intent-]) {\n  box-shadow: none !important;\n  padding: 9px 10px !important;\n  border-radius: 5px !important;\n}\n.accordion .sub_category {\n  padding: 9px !important;\n}\n.accordion .bp3-button.active, .sub_category.active{\n  background-color: #66aff2 !important;\n  border-radius: 5px !important;\n}\n.accordion .bp3-button:hover, .sub_category:hover{\n  box-shadow: inset 0 0 0 2px #66aff2, inset 0 -1px 0 #66aff2 !important;\n  border-radius: 5px !important;\n}\n.accordion .bp3-button::after, .sub_category::after{\n  border: none !important;\n}\n.CUSTOM_ACCORDION_WIDGET{\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n}\n.modules{\n    /* top: 60px !important; */\n    left: 167px  !important;\n    padding: 0px !important;\n    width: calc(100% - 160px) !important;\n    \n}\n",
+        "template": "\n\n/* _____________BASE_________________ */\nbody section{\n    background-color: #ffffff!important;\n}\ninput, .rc-select-show-arrow.rc-select-multiple .rc-select-selector, .select-button{\n  border-radius: 4px !important;\n}\n/* button {\n  border-radius: 4px !important;\n} */\nlabel {\n  border-radius: 4px !important;\n}\n\nspan > textarea {\n  border-radius: 4px !important;\n}\n.bp3-button .bp3-input-group{\n  border-radius: 8px!important;\n}\n::-webkit-scrollbar {\n  width: 0.1px;\n}\n\n\n/*__________________Modal________________________ */\n.bp3-overlay{\nz-index: 5 !important;\n}\n\ndiv[id=\"comment-overlay-wrapper-0\"]\n  .bp3-overlay-content.bp3-overlay-appear-done {\n  /* width: 50% !important; */\n  height: 90vh !important;\n  max-height: 90vh !important;\n  /* right: 0px !important; */\n  border-radius: 10px !important;\n  box-shadow: 0px 6px 14px -4px rgb(255 255 255 / 88%) !important;\n  \n}\n\n.cheker > div > div > div > div span {\n  border-radius: 180px !important;\n  outline: none !important;\n  border: none !important;\n}\n.cheker > div > div > div > div span:before {\n  border-radius: 180px !important;\n  background-color: rgb(20, 22, 20) !important;\n  border: none !important;\n}\n.activtab > div > div > div > div > div > div > div img {\n  border-radius: 180px !important;\n  background-color: #1d1b1b !important;\n}\n\n.init {\n  position: initial !important;\n}\n.hide {\n  display: none;\n  height: 20px !important;\n}\n\n.activ {\n  display: block;\n}\n\n.rc-pagination-prev button::after {\n  content: \"\\25c4\" !important;\n  display: block !important;\n  border: none !important;\n}\n.rc-pagination-next button::after {\n  content: \"\\25ba\" !important;\n  display: block !important;\n}\n.rc-pagination-item {\n  display: none !important;\n}\n\n.sidemenu {\n  /* width: 50% !important;\n  padding-left: 10px !important;\n  padding-right: 30px !important;\n  height: 100vh !important; \n  max-height: 100vh !important;\n  min-height: 100vh !important;\n  transform: translate3d(0px, 0px, 0px) !important;\n  right: 0px !important; */\n  background-color: #FFFFFF !important;\n  background-image: linear-gradient(180deg, #ffffff 55%, #5baaf5a1 80%) !important;\n}\n\n\n\n/* .setBtnRight {\n  left: unset !important;\n  right: 0 !important;\n}\n\n.setBtnAlmostRight {\n  left: unset !important;\n  right: 10px !important;\n} */\n\n/* .setWidthHundredPercent {\n  width: 100% !important;\n}\n\n.setWidthNintyEightPercent {\n  width: 98% !important;\n} */\n\n/* .setWidthHundredPercentNestedDivs > div > div > div > div > div > div > div > div > div > div > div > div > div {\n  width: 100% !important;\n}\n\n.setWidthNinetyFivePercent {\n  width: 95% !important;\n}\n\n.setWidthNinetyFivePercentNestedDivs > div > div > div > div > div > div > div > div > div > div > div > div > div {\n  width: 95% !important;\n} */\n\n.setItemsCenter > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n}\n\n.setPositionStatic {\n  position: static !important;\n}\n\n.addTextToShadow span{\n  text-shadow: 1px 2px 5px black !important;\n}\n\n.modalListItemWrapper > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n}\n\n.modalListItem {\n  position: static !important;\n}\n.modalListFirstItem {\n  order: 1 !important;\n}\n\n.modalListSecondItem {\n  order: 2 !important;\n}\n.modalListThirdItem {\n  order: 3 !important;\n}\n.modalListFourthItem {\n  order: 4 !important;\n}\n.modalListFifthItem {\n  order: 5 !important;\n}\n\n.flexSetGap {\n  gap: 10px;\n}\n\n.flexGrow {\n  flex-grow: 1;\n}\n\n\n\n.loginForm_wrapper > div > div > div > div > div {\n  border-radius: 30px !important\n}\n.loginForm_wrapper:before,\n.loginForm_wrapper:after {\n  z-index: -1 !important;\n  position: absolute !important;\n  content: \"\" !important;\n  bottom: 18px !important;\n  left: 10px !important;\n  width: 50% !important;\n  top: 80% !important;\n  max-width: 300px !important;\n  background: #777 !important;\n  box-shadow: 0 18px 10px #777 !important;\n  transform: rotate(-3deg) !important;\n}\n\n.loginForm_wrapper:after {\n  transform: rotate(3deg) !important;\n  right: 10px !important;\n  left: auto !important;\n}\n\n.loginForm_btnWrapper > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n}\n\n.loginForm_divider {\n  flex-grow: 1 !important;\n}\n\n.attributeTable div.tableWrap div[role='cell'] button {\n  border-radius: 50% !important;\n}\n\n.deleteAttrGroupModal_wrapper > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n}\n\n.main_tableTwo  {\n width: 98%!important;\n}\n\n.main_tableTwo>div>div>div>div>div:nth-child(1){\nwidth: 100%!important;\n}\n.main_tableTwo>div>div>div>div>div:nth-child(2){\nwidth: 100%!important;\n}\n.main_tableTwo>div>div>div>div>div>div{\n  width: 100%!important;\n}\n.main_table input.bp3-input{\n  height: 20px!important;\n}\n\n.addUserModal_textInput input {\n  height: 40px !important;\n}\n\n\n.addUserModal_select button {\n  height: 40px !important;\n}\n\n.addUserModal_multiSelect div.rc-select-multiple {\n  height: 40px !important;\n}\n\n.accordionBtnWrapper button{\n  border-radius: 5px !important;\n  margin-bottom: 10px !important;\n  border: 1px solid #3366FF !important;    \n}\n\n/* .editUserModal_table div.th.header-reorder {\n  flex: 726 0 auto !important;\n}\n\n.editUserModal_table div.tbody div.tr > div.td {\n  flex: 726 0 auto !important;\n} */\n\n\n.tabs {\n  top:0 !important;\n  left: 0 !important; \n  height: 100vh !important;\n  width: 100% !important;\n  padding: 10px !important;\n  background-image: linear-gradient(180deg, #ffffff 25%, #68adeed9 100%) !important;\n\n}\n.tabs>div>div>div>div>div {\n  background-color: transparent !important;\n}\n\n.tabs>div>div>div>div {\n  box-shadow: none !important;\n}\n\n.center_container{\n  top: 50% !important;\n  left: 50% !important;\n  transform: translate(-50%, -50%) !important;\n}\n\n.sidebar{\n  position: fixed !important;\n  height: 100vh !important;\n  top: 0 !important;\n  left: 0 !important;\n  padding: 0px !important;\n  width: 160px !important;\n  box-shadow: 9px 0px 4px -6px rgba(199,199,199,0.7) !important;\n  background-image: linear-gradient(180deg, #ffffff 25%, #68adeed9 100%) !important;\n  z-index: 5 !important;\n}\n.header{\n  top: 0 !important;\n  left: 167px !important;\n  padding: 0px !important; \n  width: calc(100% - 160px) !important;\n  height: 60px !important;\n}\n.accordion{\n  padding: 9px !important;\n  width: 100% !important;\n  \n}\n.accordion .bp3-button:not([class*=bp3-intent-]) {\n  box-shadow: none !important;\n  padding: 9px 10px !important;\n  border-radius: 5px !important;\n}\n.accordion .sub_category {\n  padding: 9px !important;\n}\n.accordion .bp3-button.active, .sub_category.active{\n  background-color: #66aff2 !important;\n  border-radius: 5px !important;\n}\n.accordion .bp3-button:hover, .sub_category:hover{\n  box-shadow: inset 0 0 0 2px #66aff2, inset 0 -1px 0 #66aff2 !important;\n  border-radius: 5px !important;\n}\n.accordion .bp3-button::after, .sub_category::after{\n  border: none !important;\n}\n.CUSTOM_ACCORDION_WIDGET{\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n}\n.modules{\n    /* top: 60px !important; */\n    left: 167px  !important;\n    padding: 0px !important;\n    width: calc(100% - 160px) !important;\n    \n}\n",
         "output": "str",
         "x": 280,
         "y": 60,
@@ -7262,8 +7244,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 350,
-        "y": 1520,
+        "x": 290,
+        "y": 1500,
         "wires": []
     },
     {
@@ -7622,7 +7604,8 @@
         "wires": [
             [
                 "cec5b6e8b2fb228e",
-                "f195bbb56d220aa0"
+                "f195bbb56d220aa0",
+                "2225f6bd64a90ebc"
             ]
         ]
     },
@@ -7651,7 +7634,7 @@
         "z": "be827c2e9f2e7979",
         "g": "9005e0b501e3898f",
         "name": "send email for app",
-        "func": "const nodeUrl = env.get(\"uiUrl\");\nconst url = `${nodeUrl}/Login`;\n\nconst colorHeading = `color: #1D1D1D;\nfont-family: \"Inter\";\nfont-size: 40px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 48px; /* 120% */\nletter-spacing: -0.8px;`\n\nconst basicText = `color: #8E8E8E;\nfont-family: Inter;\nfont-size: 14px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 24px; /* 171.429% */\nletter-spacing: -0.28px;`\n\nconst link = `\ndisplay: inline-flex;\npadding: 12px 10px;\njustify-content: center;\nalign-items: center;\nborder-radius: 5px;\nbackground: #1D1D1D;\ngap: 4px;\ncolor: #FFF;\nfont-family: Inter;\nfont-size: 14px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 24px; /* 171.429% */\n`\n\nconst text = `\n<div style=\"padding: 10px 0; color: black;\">\n    <h1  style=\"${colorHeading}\">Доступ до Unified_Auth_Template</h1>\n    <p style=\"${basicText}\">Ви отримали доступ до системи Unified_Auth_Template. Перейдіть за посиланням, щоб продовжити роботу.</p>\n    <p style=\"${basicText}\"></p>\n    <a href=\"${url}\" style=\"${link}\">Авторизуватись</a>\n</div>\n`;\n    // <p style=\"${basicText}\">У разі виникнення питань щодо роботи реєстрації та роботи з продутом пишіть на admin@visia.pro</p>\n\n// msg.to = msg.oldpayload.email\nmsg.topic = 'Доступ до Unified_Auth_Template';\nmsg.payload = text;\nmsg.from = global.get('email')\n\nreturn msg;",
+        "func": "const nodeUrl = env.get(\"uiUrl\");\nconst url = `${nodeUrl}/Login`;\n\nconst colorHeading = `color: #1D1D1D;\nfont-family: \"Inter\";\nfont-size: 40px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 48px; /* 120% */\nletter-spacing: -0.8px;`\n\nconst basicText = `color: #8E8E8E;\nfont-family: Inter;\nfont-size: 14px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 24px; /* 171.429% */\nletter-spacing: -0.28px;`\n\nconst link = `\ndisplay: inline-flex;\npadding: 12px 10px;\njustify-content: center;\nalign-items: center;\nborder-radius: 5px;\nbackground: #1D1D1D;\ngap: 4px;\ncolor: #FFF;\nfont-family: Inter;\nfont-size: 14px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 24px; /* 171.429% */\n`\n\nconst text = `\n<div style=\"padding: 10px 0; color: black;\">\n    <h1  style=\"${colorHeading}\">Access to Unified_Auth_Template</h1>\n    <p style=\"${basicText}\">You have gained access to the system Unified_Auth_Template. Follow the link to continue.</p>\n    <p style=\"${basicText}\"></p>\n    <a href=\"${url}\" style=\"${link}\">Log in</a>\n</div>\n`;\n    // <p style=\"${basicText}\">У разі виникнення питань щодо роботи реєстрації та роботи з продутом пишіть на admin@visia.pro</p>\n\n// msg.to = msg.oldpayload.email\nmsg.topic = 'Access to Unified_Auth_Template';\nmsg.payload = text;\n// msg.from = global.get('email')\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -7708,9 +7691,9 @@
         "port": "465",
         "secure": true,
         "tls": true,
-        "name": "bpapushoj@gmail.com",
+        "name": "y.glushko@outlook.com",
         "dname": "",
-        "x": 1580,
+        "x": 1590,
         "y": 200,
         "wires": []
     },
@@ -7723,7 +7706,7 @@
         "statusCode": "200",
         "headers": {},
         "x": 1540,
-        "y": 240,
+        "y": 260,
         "wires": []
     },
     {
@@ -11494,7 +11477,7 @@
         "z": "ca956876b5c40358",
         "g": "887b236316f68d63",
         "name": "debug 468",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -11659,7 +11642,7 @@
         "type": "debug",
         "z": "ca956876b5c40358",
         "name": "debug 471",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -11694,7 +11677,7 @@
         "type": "debug",
         "z": "ca956876b5c40358",
         "name": "debug 472",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -11741,7 +11724,7 @@
         "type": "debug",
         "z": "ca956876b5c40358",
         "name": "debug 473",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -11852,7 +11835,7 @@
         "type": "debug",
         "z": "ca956876b5c40358",
         "name": "debug 474",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -11886,7 +11869,7 @@
         "type": "function",
         "z": "ca956876b5c40358",
         "name": "function 572",
-        "func": "msg.collection = \"appSettings\";\nnode.warn(global.get('email'));\nnode.warn(global.get('googleAppPassword'));\nmsg.payload = [\n     {\n    $match: {\n        deleted: false\n    }\n},   \n    {\n        $project: {\n            init: 1,\n            email: 1\n        }\n    }\n]\n\nreturn msg;",
+        "func": "msg.collection = \"appSettings\";\n// node.warn(global.get('email'));\n// node.warn(global.get('googleAppPassword'));\nmsg.payload = [\n     {\n    $match: {\n        deleted: false\n    }\n},   \n    {\n        $project: {\n            init: 1,\n            email: 1\n        }\n    }\n]\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -11964,7 +11947,7 @@
         "type": "debug",
         "z": "ca956876b5c40358",
         "name": "debug 475",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -12091,7 +12074,7 @@
         "z": "ca956876b5c40358",
         "g": "887b236316f68d63",
         "name": "debug 488",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -12121,7 +12104,7 @@
         "z": "ca956876b5c40358",
         "g": "887b236316f68d63",
         "name": "debug 489",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
