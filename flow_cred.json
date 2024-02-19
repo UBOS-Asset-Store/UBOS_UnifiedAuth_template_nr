@@ -6,9 +6,5 @@
         "user": "${mongoUserName}",
         "password": "${mongoPassword}"
     },
-    "6f70f661f167dd24": {
-        "password": "rdsn iepm ubbv viws",
-        "userid": "dergunovaglushko@gmail.com"
-    },
     "a8c73a02ead9c281": {}
 }

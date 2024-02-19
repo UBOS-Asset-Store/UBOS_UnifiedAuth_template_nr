@@ -232,7 +232,9 @@
             "7df30165a4d0a7eb",
             "36a8ed88d4ee5217",
             "c08229195cce1b53",
-            "5164464dd17d2bc2"
+            "5164464dd17d2bc2",
+            "0c205d18a44a5419",
+            "2f67916e0bc7be15"
         ],
         "x": 774,
         "y": 1539,
@@ -295,7 +297,6 @@
             "382da0ed3f1de901",
             "c13b3599b3b92508",
             "27bfc0517835a179",
-            "03b23aac01f7893f",
             "411b69c681820b0e",
             "500861a5b5623bc5",
             "cd5c1d01d15467f7",
@@ -401,9 +402,12 @@
             "10007edf417c9898",
             "938808ccc068e486",
             "eae728e933c02b8c",
-            "a8a3190cf08137cd"
+            "a8a3190cf08137cd",
+            "831e4e8e361ab62f",
+            "743c16cb0b7d1758",
+            "c13baca0a8f18f1a"
         ],
-        "x": 54,
+        "x": 14,
         "y": 3399,
         "w": 3572,
         "h": 722
@@ -449,9 +453,7 @@
             "9948cacf4fdeaf7b"
         ],
         "x": 134,
-        "y": 79,
-        "w": 852,
-        "h": 202
+        "y": 79
     },
     {
         "id": "d78377c07a215120",
@@ -544,15 +546,106 @@
             "1b137c6a843f5af0",
             "c6738f0c897830ef",
             "769c853fb108cedb",
-            "d2bd362abdcf67e2",
-            "464bf3cb87a8f9e4",
-            "a2e83bc0934df292",
-            "32b2be47949a882e"
+            "d2bd362abdcf67e2"
         ],
         "x": 14,
         "y": 19,
         "w": 2012,
         "h": 1182
+    },
+    {
+        "id": "8017305e1b09baac",
+        "type": "group",
+        "z": "ffd8bc62df2cb641",
+        "name": "Attributes",
+        "style": {
+            "fill": "#bfdbef",
+            "label": true
+        },
+        "nodes": [
+            "967b38b536709fe7",
+            "11990fd0e53a6fba",
+            "bc62308fe59a8de8",
+            "1d8898a2f227d8a0",
+            "18107938eda1b521",
+            "c9b84712515e3dd6",
+            "f3a9ec493a3788a1",
+            "41082da2d42a752f",
+            "9dd8dd2c0c576b82",
+            "0d03bbc99874bf74",
+            "6b07fb9e75bbc6e5",
+            "e130804ebf1ff0c1",
+            "be9cb6eb76e34774",
+            "27120df009d576cc",
+            "8f3063bfe73244df",
+            "1adb2506e05b4f4c",
+            "be75b957f9ce2ca9",
+            "283b1955ab0b86ee",
+            "c4b676987c9327e2",
+            "ec2d2701a0352fb3",
+            "cf4e325526af01ec",
+            "4f1e78e341e1d8e1",
+            "f89bf2fa98334f94",
+            "153e790f04d68a9a",
+            "51e58d3e86a09b8f",
+            "924039855a2a0ac2",
+            "96ef3d0bf7cd2325",
+            "70facfcdd18e07ba",
+            "532e85bf2e98ec24",
+            "70950a68ae412de5",
+            "85a06fd90c436dd9"
+        ],
+        "x": 34,
+        "y": 79,
+        "w": 1472,
+        "h": 402
+    },
+    {
+        "id": "0dd2dfd7df691836",
+        "type": "group",
+        "z": "ffd8bc62df2cb641",
+        "name": "Groups of Attributes",
+        "style": {
+            "stroke": "#a4a4a4",
+            "label": true,
+            "fill": "#ffffbf"
+        },
+        "nodes": [
+            "261c5bded767b2b4",
+            "1baa51cbce7e76b1",
+            "0421c50f4782c973",
+            "8e96779083d375e5",
+            "34d1252fc0218b0c",
+            "ee34f725c36258fb",
+            "6ab1ae0e1fc2625c",
+            "49d6c5c868c08944",
+            "501401efb1622ba4",
+            "4e90347d61e38683",
+            "edc1aaa95fc8679b",
+            "c46dbe0176460b95",
+            "e65d59948baddfef",
+            "953d7da5f2d0443b",
+            "9a40fcd96b565db9",
+            "2aec3884b0e8fe77",
+            "ad23eae8487a21b6",
+            "71785d945a876f29",
+            "99e53ced21107518",
+            "f851fdda6d471595",
+            "ebccf0c35e9857e7",
+            "e19d8787f98358c6",
+            "08a6980a9d700659",
+            "3dc3275731c4f2cc",
+            "3263581c45cef8d0",
+            "8113f611eac092ac",
+            "254f9956e7cacf05",
+            "7f78350112c6b1d9",
+            "1fd6abc76c828d3d",
+            "2d32ffcf75d44831"
+        ],
+        "x": 34,
+        "y": 579,
+        "w": 1352,
+        "h": 562
     },
     {
         "id": "ab6475898c71d570",
@@ -944,7 +1037,7 @@
         "fieldType": "msg",
         "format": "css",
         "syntax": "mustache",
-        "template": "\n\n/* _____________BASE_________________ */\nbody section{\n    background-color: #ffffff!important;\n}\ninput, .rc-select-show-arrow.rc-select-multiple .rc-select-selector, .select-button{\n  border-radius: 4px !important;\n}\n/* button {\n  border-radius: 4px !important;\n} */\nlabel {\n  border-radius: 4px !important;\n}\n\nspan > textarea {\n  border-radius: 4px !important;\n}\n.bp3-button .bp3-input-group{\n  border-radius: 8px!important;\n}\n::-webkit-scrollbar {\n  width: 0.1px;\n}\n\n\n/*__________________Modal________________________ */\n.bp3-overlay{\nz-index: 5 !important;\n}\n\ndiv[id=\"comment-overlay-wrapper-0\"]\n  .bp3-overlay-content.bp3-overlay-appear-done {\n  /* width: 50% !important; */\n  height: 90vh !important;\n  max-height: 90vh !important;\n  /* right: 0px !important; */\n  border-radius: 10px !important;\n  box-shadow: 0px 6px 14px -4px rgb(255 255 255 / 88%) !important;\n  \n}\n\n.cheker > div > div > div > div span {\n  border-radius: 180px !important;\n  outline: none !important;\n  border: none !important;\n}\n.cheker > div > div > div > div span:before {\n  border-radius: 180px !important;\n  background-color: rgb(20, 22, 20) !important;\n  border: none !important;\n}\n.activtab > div > div > div > div > div > div > div img {\n  border-radius: 180px !important;\n  background-color: #1d1b1b !important;\n}\n\n.init {\n  position: initial !important;\n}\n.hide {\n  display: none;\n  height: 20px !important;\n}\n\n.activ {\n  display: block;\n}\n\n.rc-pagination-prev button::after {\n  content: \"\\25c4\" !important;\n  display: block !important;\n  border: none !important;\n}\n.rc-pagination-next button::after {\n  content: \"\\25ba\" !important;\n  display: block !important;\n}\n.rc-pagination-item {\n  display: none !important;\n}\n\n.sidemenu {\n  /* width: 50% !important;\n  padding-left: 10px !important;\n  padding-right: 30px !important;\n  height: 100vh !important; \n  max-height: 100vh !important;\n  min-height: 100vh !important;\n  transform: translate3d(0px, 0px, 0px) !important;\n  right: 0px !important; */\n  background-color: #FFFFFF !important;\n  background-image: linear-gradient(180deg, #ffffff 55%, #5baaf5a1 80%) !important;\n}\n\n\n\n/* .setBtnRight {\n  left: unset !important;\n  right: 0 !important;\n}\n\n.setBtnAlmostRight {\n  left: unset !important;\n  right: 10px !important;\n} */\n\n/* .setWidthHundredPercent {\n  width: 100% !important;\n}\n\n.setWidthNintyEightPercent {\n  width: 98% !important;\n} */\n\n/* .setWidthHundredPercentNestedDivs > div > div > div > div > div > div > div > div > div > div > div > div > div {\n  width: 100% !important;\n}\n\n.setWidthNinetyFivePercent {\n  width: 95% !important;\n}\n\n.setWidthNinetyFivePercentNestedDivs > div > div > div > div > div > div > div > div > div > div > div > div > div {\n  width: 95% !important;\n} */\n\n.setItemsCenter > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n}\n\n\n\n\n\n.modalListItemWrapper > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n}\n\n.modalListItem {\n  position: static !important;\n}\n.modalListFirstItem {\n  order: 1 !important;\n}\n\n.modalListSecondItem {\n  order: 2 !important;\n}\n.modalListThirdItem {\n  order: 3 !important;\n}\n.modalListFourthItem {\n  order: 4 !important;\n}\n.modalListFifthItem {\n  order: 5 !important;\n}\n\n.flexSetGap {\n  gap: 10px;\n}\n\n.flexGrow {\n  flex-grow: 1;\n}\n\n\n\n.loginForm_wrapper > div > div > div > div > div {\n  border-radius: 30px !important\n}\n.loginForm_wrapper:before,\n.loginForm_wrapper:after {\n  z-index: -1 !important;\n  position: absolute !important;\n  content: \"\" !important;\n  bottom: 18px !important;\n  left: 10px !important;\n  width: 50% !important;\n  top: 80% !important;\n  max-width: 300px !important;\n  background: #777 !important;\n  box-shadow: 0 18px 10px #777 !important;\n  transform: rotate(-3deg) !important;\n}\n\n.loginForm_wrapper:after {\n  transform: rotate(3deg) !important;\n  right: 10px !important;\n  left: auto !important;\n}\n\n.loginForm_btnWrapper > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n}\n\n.loginForm_divider {\n  flex-grow: 1 !important;\n}\n\n.attributeTable div.tableWrap div[role='cell'] button {\n  border-radius: 50% !important;\n}\n\n.deleteAttrGroupModal_wrapper > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n}\n\n.main_tableTwo  {\n width: 98%!important;\n}\n\n.main_tableTwo>div>div>div>div>div:nth-child(1){\nwidth: 100%!important;\n}\n.main_tableTwo>div>div>div>div>div:nth-child(2){\nwidth: 100%!important;\n}\n.main_tableTwo>div>div>div>div>div>div{\n  width: 100%!important;\n}\n.main_table input.bp3-input{\n  height: 20px!important;\n}\n\n.addUserModal_textInput input {\n  height: 40px !important;\n}\n\n\n.addUserModal_select button {\n  height: 40px !important;\n}\n\n.addUserModal_multiSelect div.rc-select-multiple {\n  height: 40px !important;\n}\n\n.accordionBtnWrapper button{\n  border-radius: 5px !important;\n  margin-bottom: 10px !important;\n  border: 1px solid #3366FF !important;    \n}\n\n/* .editUserModal_table div.th.header-reorder {\n  flex: 726 0 auto !important;\n}\n\n.editUserModal_table div.tbody div.tr > div.td {\n  flex: 726 0 auto !important;\n} */\n\n\n.tabs {\n  top:0 !important;\n  left: 0 !important; \n  height: 100vh !important;\n  width: 100% !important;\n  padding: 10px !important;\n  background-image: linear-gradient(180deg, #ffffff 25%, #68adeed9 100%) !important;\n\n}\n.tabs>div>div>div>div>div {\n  background-color: transparent !important;\n}\n\n.tabs>div>div>div>div {\n  box-shadow: none !important;\n}\n\n.center_container{\n  top: 50% !important;\n  left: 50% !important;\n  transform: translate(-50%, -50%) !important;\n}\n\n.sidebar{\n  position: fixed !important;\n  height: 100vh !important;\n  top: 0 !important;\n  left: 0 !important;\n  padding: 0px !important;\n  width: 160px !important;\n  box-shadow: 9px 0px 4px -6px rgba(199,199,199,0.7) !important;\n  background-image: linear-gradient(180deg, #ffffff 25%, #68adeed9 100%) !important;\n  z-index: 5 !important;\n}\n.header{\n  top: 0 !important;\n  left: 167px !important;\n  padding: 0px !important; \n  width: calc(100% - 160px) !important;\n  height: 60px !important;\n}\n.accordion{\n  padding: 9px !important;\n  width: 100% !important;\n  \n}\n.accordion .bp3-button:not([class*=bp3-intent-]) {\n  box-shadow: none !important;\n  padding: 9px 10px !important;\n  border-radius: 5px !important;\n}\n.accordion .sub_category {\n  padding: 9px !important;\n}\n.accordion .bp3-button.active, .sub_category.active{\n  background-color: #66aff2 !important;\n  border-radius: 5px !important;\n}\n.accordion .bp3-button:hover, .sub_category:hover{\n  box-shadow: inset 0 0 0 2px #66aff2, inset 0 -1px 0 #66aff2 !important;\n  border-radius: 5px !important;\n}\n.accordion .bp3-button::after, .sub_category::after{\n  border: none !important;\n}\n.CUSTOM_ACCORDION_WIDGET{\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n}\n.modules{\n    /* top: 60px !important; */\n    left: 167px  !important;\n    padding: 0px !important;\n    width: calc(100% - 160px) !important;\n    \n}\n",
+        "template": "\n\n/* _____________BASE_________________ */\nbody section{\n    background-color: #ffffff!important;\n}\ninput, .rc-select-show-arrow.rc-select-multiple .rc-select-selector, .select-button{\n  border-radius: 4px !important;\n}\n\nlabel {\n  border-radius: 4px !important;\n}\n\nspan > textarea {\n  border-radius: 4px !important;\n}\n.bp3-button .bp3-input-group{\n  border-radius: 8px!important;\n}\n::-webkit-scrollbar {\n  width: 0.1px;\n}\n\n\n/*__________________Modal________________________ */\n.bp3-overlay{\nz-index: 5 !important;\n}\n\ndiv[id=\"comment-overlay-wrapper-0\"]\n  .bp3-overlay-content.bp3-overlay-appear-done {\n  \n  height: 90vh !important;\n  max-height: 90vh !important;\n  border-radius: 10px !important;\n  box-shadow: 0px 6px 14px -4px rgb(255 255 255 / 88%) !important;\n  \n}\n/* \n.cheker > div > div > div > div span {\n  border-radius: 180px !important;\n  outline: none !important;\n  border: none !important;\n}\n.cheker > div > div > div > div span:before {\n  border-radius: 180px !important;\n  background-color: rgb(20, 22, 20) !important;\n  border: none !important;\n}\n.activtab > div > div > div > div > div > div > div img {\n  border-radius: 180px !important;\n  background-color: #1d1b1b !important;\n}\n\n.init {\n  position: initial !important;\n}\n.hide {\n  display: none;\n  height: 20px !important;\n}\n\n.activ {\n  display: block;\n}\n\n.rc-pagination-prev button::after {\n  content: \"\\25c4\" !important;\n  display: block !important;\n  border: none !important;\n}\n.rc-pagination-next button::after {\n  content: \"\\25ba\" !important;\n  display: block !important;\n}\n.rc-pagination-item {\n  display: none !important;\n} */\n\n.sidemenu {\n  background-color: #FFFFFF !important;\n  /* background-image: linear-gradient(180deg, #ffffff 55%, #5baaf5a1 80%) !important; */\n}\n\n\n\n/* .setBtnRight {\n  left: unset !important;\n  right: 0 !important;\n}\n\n.setBtnAlmostRight {\n  left: unset !important;\n  right: 10px !important;\n} */\n\n/* .setWidthHundredPercent {\n  width: 100% !important;\n}\n\n.setWidthNintyEightPercent {\n  width: 98% !important;\n} */\n\n/* .setWidthHundredPercentNestedDivs > div > div > div > div > div > div > div > div > div > div > div > div > div {\n  width: 100% !important;\n}\n\n.setWidthNinetyFivePercent {\n  width: 95% !important;\n}\n\n.setWidthNinetyFivePercentNestedDivs > div > div > div > div > div > div > div > div > div > div > div > div > div {\n  width: 95% !important;\n} */\n\n/* .setItemsCenter > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n} */\n\n\n\n\n\n/* .modalListItemWrapper > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n}\n\n.modalListItem {\n  position: static !important;\n}\n.modalListFirstItem {\n  order: 1 !important;\n}\n\n.modalListSecondItem {\n  order: 2 !important;\n}\n.modalListThirdItem {\n  order: 3 !important;\n}\n.modalListFourthItem {\n  order: 4 !important;\n}\n.modalListFifthItem {\n  order: 5 !important;\n}\n\n.flexSetGap {\n  gap: 10px;\n}\n\n.flexGrow {\n  flex-grow: 1;\n} */\n\n\n\n.loginForm_wrapper > div > div > div > div > div {\n  border-radius: 30px !important\n}\n.loginForm_wrapper:before,\n.loginForm_wrapper:after {\n  z-index: -1 !important;\n  position: absolute !important;\n  content: \"\" !important;\n  bottom: 18px !important;\n  left: 10px !important;\n  width: 50% !important;\n  top: 80% !important;\n  max-width: 300px !important;\n  background: #777 !important;\n  box-shadow: 0 18px 10px #777 !important;\n  transform: rotate(-3deg) !important;\n}\n\n.loginForm_wrapper:after {\n  transform: rotate(3deg) !important;\n  right: 10px !important;\n  left: auto !important;\n}\n\n.loginForm_btnWrapper > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n}\n\n.loginForm_divider {\n  flex-grow: 1 !important;\n}\n\n/* .attributeTable div.tableWrap div[role='cell'] button {\n  border-radius: 50% !important;\n}\n\n.deleteAttrGroupModal_wrapper > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n} */\n\n/* .main_tableTwo  {\n width: 98%!important;\n}\n\n.main_tableTwo>div>div>div>div>div:nth-child(1){\nwidth: 100%!important;\n}\n.main_tableTwo>div>div>div>div>div:nth-child(2){\nwidth: 100%!important;\n}\n.main_tableTwo>div>div>div>div>div>div{\n  width: 100%!important;\n}\n.main_table input.bp3-input{\n  height: 20px!important;\n}\n\n.addUserModal_textInput input {\n  height: 40px !important;\n}\n\n\n.addUserModal_select button {\n  height: 40px !important;\n}\n\n.addUserModal_multiSelect div.rc-select-multiple {\n  height: 40px !important;\n}\n\n.accordionBtnWrapper button{\n  border-radius: 5px !important;\n  margin-bottom: 10px !important;\n  border: 1px solid #3366FF !important;    \n} */\n\n/* .editUserModal_table div.th.header-reorder {\n  flex: 726 0 auto !important;\n}\n\n.editUserModal_table div.tbody div.tr > div.td {\n  flex: 726 0 auto !important;\n} */\n\n\n.tabs {\n  top:0 !important;\n  left: 0 !important; \n  height: 100vh !important;\n  width: 100% !important;\n  padding: 10px !important;\n  background-image: linear-gradient(180deg, #ffffff 25%, #68adeed9 100%) !important;\n\n}\n.tabs>div>div>div>div>div {\n  background-color: transparent !important;\n}\n\n.tabs>div>div>div>div {\n  box-shadow: none !important;\n}\n\n.center_container{\n  top: 50% !important;\n  left: 50% !important;\n  transform: translate(-50%, -50%) !important;\n}\n.centerUp_container{\n  top: 5% !important;\n  left: 50% !important;\n  transform: translate(-50%, -5%) !important;\n}\n\n.sidebar{\n  position: fixed !important;\n  height: 100vh !important;\n  top: 0 !important;\n  left: 0 !important;\n  padding: 0px !important;\n  width: 160px !important;\n  box-shadow: 9px 0px 4px -6px rgba(199,199,199,0.7) !important;\n  background-image: linear-gradient(180deg, #ffffff 25%, #68adeed9 100%) !important;\n  z-index: 5 !important;\n}\n.header{\n  top: 0 !important;\n  left: 167px !important;\n  padding: 0px !important; \n  width: calc(100% - 160px) !important;\n  height: 60px !important;\n}\n.accordion{\n  padding: 9px !important;\n  width: 100% !important;\n  \n}\n.accordion .bp3-button:not([class*=bp3-intent-]) {\n  box-shadow: none !important;\n  padding: 9px 10px !important;\n  border-radius: 5px !important;\n}\n.accordion .sub_category {\n  padding: 9px !important;\n}\n.accordion .bp3-button.active, .sub_category.active{\n  background-color: #66aff2 !important;\n  border-radius: 5px !important;\n}\n.accordion .bp3-button:hover, .sub_category:hover{\n  box-shadow: inset 0 0 0 2px #66aff2, inset 0 -1px 0 #66aff2 !important;\n  border-radius: 5px !important;\n}\n.accordion .bp3-button::after, .sub_category::after{\n  border: none !important;\n}\n.CUSTOM_ACCORDION_WIDGET{\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n}\n.modules{\n    /* top: 60px !important; */\n    left: 167px  !important;\n    padding: 0px !important;\n    width: calc(100% - 160px) !important;\n    \n}\n",
         "output": "str",
         "x": 280,
         "y": 60,
@@ -1006,7 +1099,7 @@
         "z": "c8b39bad946d8ab6",
         "g": "81031a41452292e5",
         "name": "",
-        "func": "// msg.collection = \"admin_roles\";\n\n// msg.payload={\n//     name:msg.payload.name,\n//     deleted:false,\n//     permissions: [],\n//     createdAt: global.get(\"convert_date\")\n// }\n\n// return msg;\n\nif (msg.payload.userAttributes.some(e => e.attributeName === \"create roles\")) {\n    msg.collection = \"admin_roles\";\n\nmsg.payload={\n    name:msg.payload.name,\n    deleted:false,\n    permissions: [],\n    createdAt: global.get(\"convert_date\")\n}\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
+        "func": "\nif (msg.payload.userAttributes.some(e => e.attributeName === \"create role\")) {\n    msg.collection = \"admin_roles\";\n\nmsg.payload={\n    name:msg.payload.name,\n    deleted:false,\n    permissions: [],\n    createdAt: global.get(\"convert_date\")\n}\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -1017,8 +1110,7 @@
         "wires": [
             [
                 "561598685195f480",
-                "9710436b969b38d7",
-                "fb1d55f7ef80645d"
+                "9710436b969b38d7"
             ],
             [
                 "ffb9f41c5e60afc6"
@@ -1125,7 +1217,7 @@
         "z": "c8b39bad946d8ab6",
         "g": "81031a41452292e5",
         "name": "",
-        "func": "\n\n// return msg;\n\nif (msg.payload.userAttributes.some(e => e.attributeName === \"update roles\")) {\n    msg.collection = \"admin_roles\";\n\n    let crud = {\n        \"canCreate\": false,\n        \"canRead\": false,\n        \"canEdit\": false,\n        \"canRemove\": false\n    }\n\n    msg.payload.options.map(e => {\n        if (e == \"C\") {\n            crud.canCreate = true\n        }\n        else if (e == \"R\") {\n            crud.canRead = true\n        }\n        else if (e == \"U\") {\n            crud.canEdit = true\n        } else if (e == \"D\") {\n            crud.canRemove = true\n        }\n    })\n\n\n    let modules = msg.payload.moduleName.map((name, index) => {\n        return {\n            \"name\": name,\n            \"value\": msg.payload.moduleValue[index]\n        }\n\n    })\n\n    let preparedModules\n        = modules.map(item => {\n            return {\n                module: item.name,\n                moduleId: objectid(item.value),\n                ...crud\n            }\n        })\n\n    msg.query = {\n        \"_id\": objectid(msg.payload._id)\n    }\n\n    msg.payload = {\n        $push: {\n            permissions: {\n                $each: [...preparedModules]\n            }\n        }\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
+        "func": "\nif (msg.payload.userAttributes.some(e => e.attributeName === \"update role\")) {\n    msg.collection = \"admin_roles\";\n\n    let crud = {\n        // \"canCreate\": false,\n        \"canRead\": false,\n        // \"canEdit\": false,\n        // \"canRemove\": false\n    }\n\n    msg.payload.options.map(e => {\n        // if (e == \"C\") {\n        //     crud.canCreate = true\n        // }\n        if (e == \"R\") {\n            crud.canRead = true\n        }\n        // else if (e == \"U\") {\n        //     crud.canEdit = true\n        // } else if (e == \"D\") {\n        //     crud.canRemove = true\n        // }\n    })\n\n\n    let modules = msg.payload.moduleName.map((name, index) => {\n        return {\n            \"name\": name,\n            \"value\": msg.payload.moduleValue[index]\n        }\n\n    })\n\n    let preparedModules\n        = modules.map(item => {\n            return {\n                module: item.name,\n                moduleId: objectid(item.value),\n                ...crud\n            }\n        })\n\n    msg.query = {\n        \"_id\": objectid(msg.payload._id)\n    }\n\n    msg.payload = {\n        $push: {\n            permissions: {\n                $each: [...preparedModules]\n            }\n        }\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -1163,9 +1255,7 @@
         "x": 620,
         "y": 1520,
         "wires": [
-            [
-                "fb1d55f7ef80645d"
-            ]
+            []
         ]
     },
     {
@@ -1324,7 +1414,7 @@
         "z": "c8b39bad946d8ab6",
         "g": "81031a41452292e5",
         "name": "",
-        "func": "\n\n// msg.payload = {\n//     $pull: {\n//         \"permissions\": {\n//             \"moduleId\": objectid(msg.payload.moduleId)\n//         }\n//     }\n// }\n// return msg;\n\nif (msg.payload.userAttributes.some(e => e.attributeName === \"delete roles\")) {\n    msg.collection = \"admin_roles\";\n\n    msg.query = {\n        \"_id\": objectid(msg.payload._id)\n    };\n\n    const deleteModulesId = msg.payload.moduleId.map(i => objectid(i));\n\n    msg.payload = {\n        $pull: {\n            permissions: {\n                moduleId: {\n                    $in: deleteModulesId\n                }\n            }\n        }\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
+        "func": "\n\nif (msg.payload.userAttributes.some(e => e.attributeName === \"delete role\")) {\n    msg.collection = \"admin_roles\";\n\n    msg.query = {\n        \"_id\": objectid(msg.payload._id)\n    };\n\n    const deleteModulesId = msg.payload.moduleId.map(i => objectid(i));\n\n    msg.payload = {\n        $pull: {\n            permissions: {\n                moduleId: {\n                    $in: deleteModulesId\n                }\n            }\n        }\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -1390,7 +1480,7 @@
         "z": "c8b39bad946d8ab6",
         "g": "81031a41452292e5",
         "name": "",
-        "func": "\n// return msg;\nif (msg.payload.userAttributes.some(e => e.attributeName === \"delete roles\")) {\n    msg.collection = \"admin_roles\"\n\n    msg.query = {\n        _id: objectid(msg.payload._id)\n    }\n\n    msg.payload = {\n        $set: {\n            deleted: true\n        }\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
+        "func": "\n// return msg;\nif (msg.payload.userAttributes.some(e => e.attributeName === \"delete role\")) {\n    msg.collection = \"admin_roles\"\n\n    msg.query = {\n        _id: objectid(msg.payload._id)\n    }\n\n    msg.payload = {\n        $set: {\n            deleted: true\n        }\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -1477,7 +1567,7 @@
         "type": "debug",
         "z": "c8b39bad946d8ab6",
         "g": "81031a41452292e5",
-        "name": "",
+        "name": "add module to role",
         "active": false,
         "tosidebar": true,
         "console": false,
@@ -1486,7 +1576,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 330,
+        "x": 370,
         "y": 1660,
         "wires": []
     },
@@ -1611,8 +1701,7 @@
         "y": 2380,
         "wires": [
             [
-                "8e90850289063c0f",
-                "c13b3599b3b92508"
+                "8e90850289063c0f"
             ]
         ],
         "icon": "node-red/arrow-in.svg"
@@ -1635,7 +1724,7 @@
         "z": "c8b39bad946d8ab6",
         "g": "a8bcf74ef7690d27",
         "name": "",
-        "func": "\n\n// return msg;\nif (msg.payload.userAttributes.some(e => e.attributeName === \"create modules\")) {\n    msg.collection = \"admin_modules\"\n\n    msg.payload = {\n        ...msg.payload,\n        deleted: false,\n        isParent: false\n    };\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
+        "func": "\n\n// return msg;\nif (msg.payload.userAttributes.some(e => e.attributeName === \"create page\")) {\n    msg.collection = \"admin_modules\"\n\n    msg.payload = {\n        ...msg.payload,\n        deleted: false,\n        isParent: false\n    };\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -1741,7 +1830,7 @@
         "z": "c8b39bad946d8ab6",
         "g": "a8bcf74ef7690d27",
         "name": "query",
-        "func": "msg.collection = \"admin_modules\";\nif (msg.payload.userAttributes.some(e => e.attributeName === \"create modules\")) {\n    if (msg.payload.parentModule) {\n        msg.query = {\n            \"_id\": objectid(msg.payload.parentModule)\n        };\n\n        msg.payload = {\n            $addToSet: {\n                childModules: {\n                    name: msg.payload.childModule,\n                    page_id: msg.payload.childModule,\n                    position: msg.payload.position\n                }\n            },\n            $set: {\n                isParent: true\n            }\n        }\n\n        return [msg, null, null];\n    } else {\n\n\n        msg.payload = {\n            ...msg.payload,\n            deleted: false,\n            isParent: false\n        }\n        return [null, msg, null];\n    }\n\n} else {\n    return [null, null, msg]\n}\n",
+        "func": "msg.collection = \"admin_modules\";\nif (msg.payload.userAttributes.some(e => e.attributeName === \"create page\")) {\n    if (msg.payload.parentModule) {\n        msg.query = {\n            \"_id\": objectid(msg.payload.parentModule)\n        };\n\n        msg.payload = {\n            $addToSet: {\n                childModules: {\n                    name: msg.payload.childModule,\n                    page_id: msg.payload.childModule,\n                    position: msg.payload.position\n                }\n            },\n            $set: {\n                isParent: true\n            }\n        }\n\n        return [msg, null, null];\n    } else {\n\n\n        msg.payload = {\n            ...msg.payload,\n            deleted: false,\n            isParent: false\n        }\n        return [null, msg, null];\n    }\n\n} else {\n    return [null, null, msg]\n}\n",
         "outputs": 3,
         "noerr": 0,
         "initialize": "",
@@ -1796,7 +1885,7 @@
         "z": "c8b39bad946d8ab6",
         "g": "a8bcf74ef7690d27",
         "name": "query",
-        "func": "\n// return msg;\n\n\nif (msg.payload.userAttributes.some(e => e.attributeName === \"delete modules\")) {\n    msg.collection = \"admin_modules\";\n\n    msg.query = {\n        \"_id\": objectid(msg.payload._id)\n    };\n\n    msg.payload = {\n        $pull: {\n            \"childModules\": {\n                \"name\": msg.payload.childModule_id\n            }\n        }\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
+        "func": "\n// return msg;\n\n\nif (msg.payload.userAttributes.some(e => e.attributeName === \"delete page\")) {\n    msg.collection = \"admin_modules\";\n\n    msg.query = {\n        \"_id\": objectid(msg.payload._id)\n    };\n\n    msg.payload = {\n        $pull: {\n            \"childModules\": {\n                \"name\": msg.payload.childModule_id\n            }\n        }\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -1998,7 +2087,7 @@
         "z": "c8b39bad946d8ab6",
         "g": "a8bcf74ef7690d27",
         "name": "query",
-        "func": "\n// return msg;\n\n\nif (msg.payload.userAttributes.some(e => e.attributeName === \"update modules\")) {\n    msg.collection = \"admin_modules\";\n\n    msg.query = {\n        \"_id\": objectid(msg.payload._id),\n        \"childModules.name\": msg.payload.name\n    };\n\n    msg.payload = {\n        $set: {\n            \"childModules.$.position\": msg.payload.position\n        }\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
+        "func": "\n// return msg;\n\n\nif (msg.payload.userAttributes.some(e => e.attributeName === \"update page\")) {\n    msg.collection = \"admin_modules\";\n\n    msg.query = {\n        \"_id\": objectid(msg.payload._id),\n        \"childModules.name\": msg.payload.name\n    };\n\n    msg.payload = {\n        $set: {\n            \"childModules.$.position\": msg.payload.position\n        }\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -2697,8 +2786,8 @@
         "wires": [
             [
                 "8eb1eca7b6974e66",
-                "ddf35fbb3e263951",
-                "0d5a011ed0707629"
+                "0d5a011ed0707629",
+                "0c205d18a44a5419"
             ]
         ]
     },
@@ -2767,13 +2856,11 @@
                 "module": "jsonwebtoken"
             }
         ],
-        "x": 1930,
-        "y": 1660,
+        "x": 1970,
+        "y": 1760,
         "wires": [
             [
-                "c44ba9b12aa0b19b",
-                "2212b62e77474999",
-                "d32809a33993ab1c"
+                "c44ba9b12aa0b19b"
             ]
         ]
     },
@@ -2802,8 +2889,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 2150,
-        "y": 1700,
+        "x": 2130,
+        "y": 1660,
         "wires": []
     },
     {
@@ -2932,8 +3019,8 @@
         "wires": [
             [
                 "71ea35313c1e5bbe",
-                "d12866b139615b07",
-                "45455fa4faeda4c6"
+                "45455fa4faeda4c6",
+                "2f67916e0bc7be15"
             ],
             [
                 "7df30165a4d0a7eb"
@@ -2993,13 +3080,11 @@
                 "module": "jsonwebtoken"
             }
         ],
-        "x": 1670,
-        "y": 2060,
+        "x": 2030,
+        "y": 2120,
         "wires": [
             [
-                "2b3fe1486cce4f95",
-                "c4d39042ddfb3c4c",
-                "ca0b1f9a3c42aad6"
+                "2b3fe1486cce4f95"
             ]
         ]
     },
@@ -3051,24 +3136,6 @@
         "wires": []
     },
     {
-        "id": "03b23aac01f7893f",
-        "type": "debug",
-        "z": "c8b39bad946d8ab6",
-        "g": "a8bcf74ef7690d27",
-        "name": "came",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 350,
-        "y": 2580,
-        "wires": []
-    },
-    {
         "id": "411b69c681820b0e",
         "type": "function",
         "z": "c8b39bad946d8ab6",
@@ -3108,7 +3175,6 @@
         "y": 2640,
         "wires": [
             [
-                "03b23aac01f7893f",
                 "21f47761140c09d8"
             ]
         ]
@@ -3463,8 +3529,8 @@
         "tls": true,
         "name": "",
         "dname": "",
-        "x": 2150,
-        "y": 1660,
+        "x": 2130,
+        "y": 1760,
         "wires": []
     },
     {
@@ -3478,8 +3544,8 @@
         "tls": true,
         "name": "",
         "dname": "",
-        "x": 1870,
-        "y": 2020,
+        "x": 2190,
+        "y": 2120,
         "wires": []
     },
     {
@@ -3492,7 +3558,7 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 160,
+        "x": 120,
         "y": 3440,
         "wires": [
             [
@@ -3512,7 +3578,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 360,
+        "x": 320,
         "y": 3440,
         "wires": [
             [
@@ -3531,7 +3597,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 550,
+        "x": 510,
         "y": 3440,
         "wires": [
             [
@@ -3547,7 +3613,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 870,
+        "x": 830,
         "y": 3440,
         "wires": []
     },
@@ -3561,7 +3627,7 @@
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 170,
+        "x": 130,
         "y": 3500,
         "wires": [
             [
@@ -3581,7 +3647,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 960,
+        "x": 920,
         "y": 3500,
         "wires": [
             [
@@ -3600,7 +3666,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1130,
+        "x": 1090,
         "y": 3500,
         "wires": [
             [
@@ -3620,7 +3686,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1370,
+        "x": 1330,
         "y": 3500,
         "wires": [
             [
@@ -3639,7 +3705,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1510,
+        "x": 1470,
         "y": 3500,
         "wires": [
             [
@@ -3653,13 +3719,13 @@
         "z": "c8b39bad946d8ab6",
         "g": "398457a4bc6d8725",
         "name": "admin_roles",
-        "func": "if(msg.payload.length>0){\nmsg.payload =\n{\n    \"name\": \"admin\", \"deleted\": false, \"permissions\": [\n        { \"module\": \"Role Management\", \"moduleId\": msg.payload.filter(e => e.name === 'Role Management')[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true },\n        { \"module\": \"User Management\", \"moduleId\": msg.payload.filter(e => e.name === \"User Management\")[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true },\n        { \"module\": \"Page Management\", \"moduleId\": msg.payload.filter(e => e.name === 'Page Management')[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true },\n        { \"module\": \"AppSettings\", \"moduleId\": msg.payload.filter(e => e.name === 'AppSettings')[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true }\n     \n        ],\n    \"createdAt\": global.get(\"convert_date\")\n}   \n        \nmsg.collection = \"admin_roles\"\n    return [msg,null];\n}\nelse{\n    return[null,msg]\n}\n\n",
+        "func": "if(msg.payload.length>0){\nmsg.payload =\n{\n    \"name\": \"admin\", \"deleted\": false, \"permissions\": [\n        { \"module\": \"Role Management\", \"moduleId\": msg.payload.filter(e => e.name === 'Role Management')[0]._id, \"canRead\": true},\n        { \"module\": \"User Management\", \"moduleId\": msg.payload.filter(e => e.name === \"User Management\")[0]._id, \"canRead\": true },\n        { \"module\": \"Page Management\", \"moduleId\": msg.payload.filter(e => e.name === 'Page Management')[0]._id, \"canRead\": true },\n        { \"module\": \"AppSettings\", \"moduleId\": msg.payload.filter(e => e.name === 'AppSettings')[0]._id, \"canRead\": true }\n     \n        ],\n    \"createdAt\": global.get(\"convert_date\")\n}   \n        \nmsg.collection = \"admin_roles\"\n    return [msg,null];\n}\nelse{\n    return[null,msg]\n}\n\n// {\n//     \"name\": \"admin\", \"deleted\": false, \"permissions\": [\n//         { \"module\": \"Role Management\", \"moduleId\": msg.payload.filter(e => e.name === 'Role Management')[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true },\n//         { \"module\": \"User Management\", \"moduleId\": msg.payload.filter(e => e.name === \"User Management\")[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true },\n//         { \"module\": \"Page Management\", \"moduleId\": msg.payload.filter(e => e.name === 'Page Management')[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true },\n//         { \"module\": \"AppSettings\", \"moduleId\": msg.payload.filter(e => e.name === 'AppSettings')[0]._id, \"canCreate\": true, \"canRead\": true, \"canEdit\": true, \"canRemove\": true }\n\n//     ],\n//         \"createdAt\": global.get(\"convert_date\")\n// }",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1650,
+        "x": 1610,
         "y": 3500,
         "wires": [
             [
@@ -3681,7 +3747,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1810,
+        "x": 1770,
         "y": 3480,
         "wires": [
             [
@@ -3701,7 +3767,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2260,
+        "x": 2220,
         "y": 3500,
         "wires": [
             [
@@ -3720,7 +3786,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 2390,
+        "x": 2350,
         "y": 3500,
         "wires": [
             [
@@ -3740,7 +3806,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2520,
+        "x": 2480,
         "y": 3500,
         "wires": [
             [
@@ -3762,7 +3828,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 2670,
+        "x": 2630,
         "y": 3480,
         "wires": [
             [
@@ -3782,7 +3848,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2880,
+        "x": 2840,
         "y": 3480,
         "wires": [
             [
@@ -3801,7 +3867,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 3010,
+        "x": 2970,
         "y": 3480,
         "wires": [
             [
@@ -3821,7 +3887,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3160,
+        "x": 3120,
         "y": 3480,
         "wires": [
             [
@@ -3841,7 +3907,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 3350,
+        "x": 3310,
         "y": 3440,
         "wires": []
     },
@@ -3863,7 +3929,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1255,
+        "x": 1215,
         "y": 3500,
         "wires": [
             [
@@ -3890,7 +3956,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1915,
+        "x": 1875,
         "y": 3480,
         "wires": [
             [
@@ -3917,7 +3983,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 2775,
+        "x": 2735,
         "y": 3480,
         "wires": [
             [
@@ -3938,7 +4004,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 710,
+        "x": 670,
         "y": 3440,
         "wires": [
             [
@@ -3958,7 +4024,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 440,
+        "x": 400,
         "y": 3500,
         "wires": [
             [
@@ -3977,7 +4043,7 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 570,
+        "x": 530,
         "y": 3500,
         "wires": [
             [
@@ -4003,7 +4069,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 315,
+        "x": 275,
         "y": 3500,
         "wires": [
             [
@@ -4024,7 +4090,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 510,
+        "x": 470,
         "y": 4020,
         "wires": [
             [
@@ -4044,7 +4110,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 510,
+        "x": 470,
         "y": 3900,
         "wires": [
             [
@@ -4064,7 +4130,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 510,
+        "x": 470,
         "y": 3960,
         "wires": [
             [
@@ -4080,7 +4146,7 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 690,
+        "x": 650,
         "y": 4080,
         "wires": []
     },
@@ -4096,7 +4162,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 510,
+        "x": 470,
         "y": 4080,
         "wires": [
             [
@@ -4116,7 +4182,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 3370,
+        "x": 3330,
         "y": 3480,
         "wires": [
             [
@@ -4141,7 +4207,7 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 3530,
+        "x": 3490,
         "y": 3480,
         "wires": [
             []
@@ -4165,7 +4231,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 1220,
+        "x": 1180,
         "y": 3580,
         "wires": [
             [
@@ -4191,7 +4257,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 2020,
+        "x": 1980,
         "y": 3580,
         "wires": [
             [
@@ -4217,7 +4283,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 2780,
+        "x": 2740,
         "y": 3580,
         "wires": [
             [
@@ -4247,7 +4313,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 160,
+        "x": 120,
         "y": 3880,
         "wires": [
             [
@@ -4267,7 +4333,7 @@
         "z": "c8b39bad946d8ab6",
         "g": "398457a4bc6d8725",
         "name": "",
-        "x": 750,
+        "x": 710,
         "y": 3500,
         "wires": [
             [
@@ -4287,7 +4353,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 665,
+        "x": 625,
         "y": 3500,
         "wires": [
             [
@@ -4308,7 +4374,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 835,
+        "x": 795,
         "y": 3500,
         "wires": [
             [
@@ -4329,7 +4395,7 @@
         "upsert": false,
         "multi": false,
         "operation": "delete",
-        "x": 820,
+        "x": 780,
         "y": 3960,
         "wires": []
     },
@@ -4345,7 +4411,7 @@
         "upsert": false,
         "multi": false,
         "operation": "delete",
-        "x": 800,
+        "x": 760,
         "y": 4020,
         "wires": []
     },
@@ -4361,7 +4427,7 @@
         "upsert": false,
         "multi": false,
         "operation": "delete",
-        "x": 800,
+        "x": 760,
         "y": 3900,
         "wires": []
     },
@@ -4377,7 +4443,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 510,
+        "x": 470,
         "y": 3840,
         "wires": [
             [
@@ -4397,7 +4463,7 @@
         "upsert": false,
         "multi": false,
         "operation": "delete",
-        "x": 820,
+        "x": 780,
         "y": 3840,
         "wires": []
     },
@@ -4413,7 +4479,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 500,
+        "x": 460,
         "y": 3780,
         "wires": [
             [
@@ -4433,7 +4499,7 @@
         "upsert": false,
         "multi": false,
         "operation": "delete",
-        "x": 800,
+        "x": 760,
         "y": 3780,
         "wires": []
     },
@@ -4449,7 +4515,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 510,
+        "x": 470,
         "y": 3720,
         "wires": [
             [
@@ -4469,7 +4535,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 510,
+        "x": 470,
         "y": 3660,
         "wires": [
             [
@@ -4489,7 +4555,7 @@
         "upsert": false,
         "multi": false,
         "operation": "delete",
-        "x": 810,
+        "x": 770,
         "y": 3720,
         "wires": []
     },
@@ -4505,7 +4571,7 @@
         "upsert": false,
         "multi": false,
         "operation": "delete",
-        "x": 780,
+        "x": 740,
         "y": 3660,
         "wires": []
     },
@@ -4531,7 +4597,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 240,
+        "x": 200,
         "y": 3700,
         "wires": [
             [
@@ -4639,7 +4705,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 180,
+        "x": 140,
         "y": 3980,
         "wires": [
             [
@@ -4770,7 +4836,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1970,
+        "x": 1930,
         "y": 3660,
         "wires": [
             [
@@ -4790,7 +4856,7 @@
         "resetValue": "value-null",
         "array": "array",
         "arrayType": "msg",
-        "x": 2160,
+        "x": 2120,
         "y": 3660,
         "wires": [
             [
@@ -4818,7 +4884,7 @@
                 "module": "objectid"
             }
         ],
-        "x": 1970,
+        "x": 1750,
         "y": 3740,
         "wires": [
             [
@@ -4837,11 +4903,11 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 2130,
+        "x": 1930,
         "y": 3740,
         "wires": [
             [
-                "2158a44ab877d5a3"
+                "743c16cb0b7d1758"
             ]
         ]
     },
@@ -4851,7 +4917,7 @@
         "z": "c8b39bad946d8ab6",
         "g": "398457a4bc6d8725",
         "name": "function 575",
-        "func": "if (msg.payload.name === \"Role Management Group\") {\n    msg.attributeArray = [\n            {\n            \n            name: \"get role\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            name: \"create role\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            name: \"delete role\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            name: \"update role\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        \n    ]\n}\n\nif (msg.payload.name === \"Attribute Management Group\") {\n    msg.attributeArray = [\n        {\n            \n            name: \"get attribute\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            name: \"create attribute\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            name: \"delete attribute\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            name: \"update attribute\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n\n    ]\n\n}\n\nif (msg.payload.name === \"User Management Group\") {\n    msg.attributeArray = [\n        {\n            \n            name: \"get user\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            name: \"create user\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            name: \"delete user\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            name: \"update user\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n\n    ]\n\n}\n\nif (msg.payload.name === \"Page Management Group\") {\n    msg.attributeArray = [\n        {\n            \n            name: \"get page\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            name: \"create page\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            name: \"delete page\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            name: \"update page\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n\n    ]\n\n}\n\nif (msg.payload.name === \"App Settings Group\") {\n    msg.attributeArray = [\n        {\n            \n            name: \"get app settings\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            name: \"create app settings\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            name: \"delete app settings\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            name: \"update app settings\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n\n    ]\n\n}\n\nreturn msg;\n",
+        "func": "if (msg.payload.name === \"Role Management Group\") {\n    msg.attributeArray = [\n        //     {\n            \n        //     name: \"get role\",\n        //     parentGroupId: msg.payload._id,\n        //     deleted: false,\n        //     createdAt: global.get(\"convert_date\")\n        // },\n        {\n            \n            attributeName: \"create role\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            attributeName: \"delete role\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            attributeName: \"update role\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        \n    ]\n}\n\n\nif (msg.payload.name === \"User Management Group\") {\n    msg.attributeArray = [\n        // {\n            \n        //     name: \"get user\",\n        //     parentGroupId: msg.payload._id,\n        //     deleted: false,\n        //     createdAt: global.get(\"convert_date\")\n        // },\n        {\n            \n            attributeName: \"create user\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            attributeName: \"delete user\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            attributeName: \"update user\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n\n    ]\n\n}\n\nif (msg.payload.name === \"Page Management Group\") {\n    msg.attributeArray = [\n        // {\n            \n        //     name: \"get page\",\n        //     parentGroupId: msg.payload._id,\n        //     deleted: false,\n        //     createdAt: global.get(\"convert_date\")\n        // },\n        {\n            \n            attributeName: \"create page\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            attributeName: \"delete page\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            attributeName: \"update page\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n\n    ]\n\n}\n\nif (msg.payload.name === \"Attribute Management Group\") {\n    msg.attributeArray = [\n        // {\n\n        //     name: \"get attribute\",\n        //     parentGroupId: msg.payload._id,\n        //     deleted: false,\n        //     createdAt: global.get(\"convert_date\")\n        // },\n        {\n            attributeName: \"create attribute\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n\n            attributeName: \"delete attribute\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n\n            attributeName: \"update attribute\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n\n    ]\n\n}\nif (msg.payload.name === \"App Settings Group\") {\n    msg.attributeArray = [\n        // {\n            \n        //     name: \"get app settings\",\n        //     parentGroupId: msg.payload._id,\n        //     deleted: false,\n        //     createdAt: global.get(\"convert_date\")\n        // },\n        {\n            \n            attributeName: \"create app settings\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            attributeName: \"delete app settings\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n        {\n            \n            attributeName: \"update app settings\",\n            parentGroupId: msg.payload._id,\n            deleted: false,\n            createdAt: global.get(\"convert_date\")\n        },\n\n    ]\n\n}\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4862,7 +4928,7 @@
                 "module": "objectid"
             }
         ],
-        "x": 2290,
+        "x": 2250,
         "y": 3740,
         "wires": [
             [
@@ -4881,11 +4947,11 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 2410,
+        "x": 2230,
         "y": 3840,
         "wires": [
             [
-                "eae728e933c02b8c"
+                "c13baca0a8f18f1a"
             ]
         ]
     },
@@ -4901,14 +4967,15 @@
         "resetValue": "value-null",
         "array": "attributeArray",
         "arrayType": "msg",
-        "x": 2490,
+        "x": 2450,
         "y": 3740,
         "wires": [
             [
                 "bc9f3079b91810d9"
             ],
             [
-                "938808ccc068e486"
+                "938808ccc068e486",
+                "831e4e8e361ab62f"
             ]
         ]
     },
@@ -4929,7 +4996,7 @@
                 "module": "objectid"
             }
         ],
-        "x": 2250,
+        "x": 2070,
         "y": 3840,
         "wires": [
             [
@@ -4943,7 +5010,7 @@
         "z": "c8b39bad946d8ab6",
         "g": "398457a4bc6d8725",
         "name": "function 577",
-        "func": "msg.collection = 'attributeGroups'\n// node.warn(msg.payload._id);\n// msg.adminAttributes.push(msg.payload._id)    \nmsg.adminAttributes.push({\n    attributeId: msg.payload._id,\n    attributeName: msg.payload.name\n    })\nmsg.query = {\n    _id: objectid(msg.payload.parentGroupId)\n}\nmsg.payload = {\n    $push: {\n        \"attributes\": { attributeId: msg.payload._id }\n    },\n    $set: {\n        \"updatedAt\": global.get(\"convert_date\")\n    }\n\n}\n\n// node.warn(msg.payload._id);\n\n// if (!msg.adminAttributes) {\n//     msg.adminAttributes = []\n//     msg.adminAttributes.push(msg.payload._id)    \n// }\nreturn msg;",
+        "func": "msg.collection = 'attributeGroups'\n// node.warn(msg.payload._id);\n// msg.adminAttributes.push(msg.payload._id)    \nmsg.adminAttributes.push({\n    attributeId: msg.payload._id,\n    attributeName: msg.payload.attributeName\n    })\nmsg.query = {\n    _id: objectid(msg.payload.parentGroupId)\n}\nmsg.payload = {\n    $push: {\n        \"attributes\": {attributeId: msg.payload._id}\n    },\n    $set: {\n        \"updatedAt\": global.get(\"convert_date\")\n    }\n\n}\n\n// node.warn(msg.payload._id);\n\n// if (!msg.adminAttributes) {\n//     msg.adminAttributes = []\n//     msg.adminAttributes.push(msg.payload._id)    \n// }\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -4987,7 +5054,7 @@
         "z": "c8b39bad946d8ab6",
         "g": "81031a41452292e5",
         "name": "debug 487",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -5077,7 +5144,7 @@
         "z": "c8b39bad946d8ab6",
         "g": "a8bcf74ef7690d27",
         "name": "function 582",
-        "func": "\n// return msg;\n\nif (msg.payload.userAttributes.some(e => e.attributeName === \"delete modules\")) {\n       msg.payload = msg.payload\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
+        "func": "\n// return msg;\n\nif (msg.payload.userAttributes.some(e => e.attributeName === \"delete page\")) {\n       msg.payload = msg.payload\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -5126,7 +5193,7 @@
         "z": "c8b39bad946d8ab6",
         "g": "a8bcf74ef7690d27",
         "name": "function 583",
-        "func": "\n// return msg;\n\nif (msg.payload.userAttributes.some(e => e.attributeName === \"update modules\")) {\n    msg.payload = msg.payload\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
+        "func": "\n// return msg;\n\nif (msg.payload.userAttributes.some(e => e.attributeName === \"update page\")) {\n    msg.payload = msg.payload\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -5470,7 +5537,7 @@
         "z": "c8b39bad946d8ab6",
         "g": "d78377c07a215120",
         "name": "check_token",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -5576,7 +5643,7 @@
         "z": "c8b39bad946d8ab6",
         "g": "d78377c07a215120",
         "name": "Signout",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -6421,8 +6488,7 @@
         "y": 300,
         "wires": [
             [
-                "789c8b4acff2f6b7",
-                "32b2be47949a882e"
+                "789c8b4acff2f6b7"
             ]
         ]
     },
@@ -6442,12 +6508,10 @@
         "y": 320,
         "wires": [
             [
-                "1e91697ac2db3998",
-                "464bf3cb87a8f9e4"
+                "1e91697ac2db3998"
             ],
             [
-                "8e3d911803fb42c8",
-                "a2e83bc0934df292"
+                "8e3d911803fb42c8"
             ]
         ],
         "l": false
@@ -6744,10 +6808,62 @@
         ]
     },
     {
-        "id": "464bf3cb87a8f9e4",
+        "id": "0c205d18a44a5419",
+        "type": "function",
+        "z": "c8b39bad946d8ab6",
+        "g": "5bf7ccb6c6709633",
+        "name": "send email for app",
+        "func": "// const nodeUrl = env.get(\"uiUrl\");\n// const url = `${nodeUrl}/Login`;\nconst nodeUrl = env.get(\"nodeUrl\");\nconst url = `${nodeUrl}/queryToResetPassword?token=${msg.token}`;\n\n\nconst text = `\n<div style=\"padding: 10px 0; color: black;\">\n    <h1>We received a request to reset your password</h1>\n    <p>Use the link below to set up a new password for your account. If you did not request to reset your password, ignore this email and the link will expire on its own.</p>\n    <a href=\"${url}\" target=\"_blank\" style=\"margin: 10px 0; display: inline-block; padding: 16px 36px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 16px; color: #ffffff; text-decoration: none; border-radius: 6px; background: #2E3D49;\">\n        SET NEW PASSWORD\n    </a>\n</div>\n`;\n    \nmsg.topic = 'Access to Unified_Auth_Template';\n\n\nconst email = global.get('credential').email;\nconst googleAppPassword = global.get('credential').googleAppPassword;\n\n\nlet transporter = nodemailer.createTransport({\n    \"host\": \"smtp.gmail.com\",\n    \"port\": 465,\n    \"secure\": true,\n    \"auth\": {\n        \"user\": email,\n        \"pass\": googleAppPassword\n    }\n});\n\nlet mailOptions = {\n    from: email,\n    to: msg.oldpayload.email,\n    subject: 'Reset password',\n    html: text\n};\n\ntransporter.sendMail(mailOptions, function (error, info) {\n    if (error) {\n        node.warn(error);\n    } else {\n        node.warn('Email sent: ' + info.response);\n    }\n});\nreturn msg;\n\n\n\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "nodemailer",
+                "module": "nodemailer"
+            }
+        ],
+        "x": 1950,
+        "y": 1660,
+        "wires": [
+            [
+                "2212b62e77474999",
+                "d32809a33993ab1c"
+            ]
+        ]
+    },
+    {
+        "id": "2f67916e0bc7be15",
+        "type": "function",
+        "z": "c8b39bad946d8ab6",
+        "g": "5bf7ccb6c6709633",
+        "name": "send email for app",
+        "func": "// const nodeUrl = env.get(\"uiUrl\");\n// const url = `${nodeUrl}/Login`;\nconst uiUrl = env.get(\"uiUrl\");\nconst url = `${uiUrl}/Login`;\nconst dateChanged = new Date().toString().slice(0, 24);\n\nconst text = `\n<div style=\"padding: 10px 0; color: black;\" display: block;>\n    <img src=\"https://www.iconpacks.net/icons/2/free-icon-check-mark-3280.png\"; alt=\"Success Icon\"; width=90px; height=90px;>\n    <h1 text-align=\"center\" >Password changed!</h1>\n    <p>\n        Your password has been changed successfully. \n        This is a confirmation that your password was changed at <b>${dateChanged}</b>\n        <br><br>\n        Use your new password to log in.\n    </p>\n    <a href=\"${url}\" target=\"_blank\" style=\"margin: 10px 0; display: inline-block; padding: 16px 36px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif; font-size: 16px; color: #ffffff; text-decoration: none; border-radius: 6px; background: #72D393;\">\n        <b>LOGIN NOW</b>\n    </a>\n</div>\n`;\n    \nmsg.topic = 'Access to Unified_Auth_Template';\n\n\nconst email = global.get('credential').email;\nconst googleAppPassword = global.get('credential').googleAppPassword;\n\n\nlet transporter = nodemailer.createTransport({\n    \"host\": \"smtp.gmail.com\",\n    \"port\": 465,\n    \"secure\": true,\n    \"auth\": {\n        \"user\": email,\n        \"pass\": googleAppPassword\n    }\n});\n\nlet mailOptions = {\n    from: email,\n    to: msg.oldpayload[0].email,\n    subject: 'Password changed',\n    html: text\n};\n\ntransporter.sendMail(mailOptions, function (error, info) {\n    if (error) {\n        node.warn(error);\n    } else {\n        node.warn('Email sent: ' + info.response);\n    }\n});\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "nodemailer",
+                "module": "nodemailer"
+            }
+        ],
+        "x": 1690,
+        "y": 2060,
+        "wires": [
+            [
+                "c4d39042ddfb3c4c",
+                "ca0b1f9a3c42aad6"
+            ]
+        ]
+    },
+    {
+        "id": "831e4e8e361ab62f",
         "type": "debug",
         "z": "c8b39bad946d8ab6",
-        "g": "d78377c07a215120",
+        "g": "398457a4bc6d8725",
         "name": "debug 492",
         "active": true,
         "tosidebar": true,
@@ -6757,45 +6873,61 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 310,
-        "y": 260,
+        "x": 2730,
+        "y": 3720,
         "wires": []
     },
     {
-        "id": "a2e83bc0934df292",
-        "type": "debug",
+        "id": "743c16cb0b7d1758",
+        "type": "delay",
         "z": "c8b39bad946d8ab6",
-        "g": "d78377c07a215120",
-        "name": "debug 493",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 210,
-        "y": 380,
-        "wires": []
+        "g": "398457a4bc6d8725",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "200",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2090,
+        "y": 3740,
+        "wires": [
+            [
+                "2158a44ab877d5a3"
+            ]
+        ]
     },
     {
-        "id": "32b2be47949a882e",
-        "type": "debug",
+        "id": "c13baca0a8f18f1a",
+        "type": "delay",
         "z": "c8b39bad946d8ab6",
-        "g": "d78377c07a215120",
-        "name": "debug 494",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 550,
-        "y": 260,
-        "wires": []
+        "g": "398457a4bc6d8725",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "200",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 2390,
+        "y": 3840,
+        "wires": [
+            [
+                "eae728e933c02b8c"
+            ]
+        ]
     },
     {
         "id": "65a2701306f207e9",
@@ -6820,7 +6952,7 @@
         "type": "function",
         "z": "be827c2e9f2e7979",
         "name": "find user",
-        "func": "// msg.oldpayload = JSON.parse(msg.payload);\n\n\n\n// return msg;\n\n\n\nif (msg.payload.userAttributes.some(e => e.attributeName === \"create user\")) {\n    msg.oldpayload = msg.payload\n    msg.collection = \"admins\";\n\n    msg.payload = {\n        email: msg.payload.email,\n        deleted: false\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
+        "func": "\nif (msg.payload.userAttributes.some(e => e.attributeName === \"create user\")) {\n    msg.oldpayload = msg.payload\n    msg.collection = \"admins\";\n\n    msg.payload = {\n        email: msg.payload.email,\n        deleted: false\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -6873,7 +7005,8 @@
                 "bfa5582e164e3230"
             ],
             [
-                "b61e36cac84a8579"
+                "b61e36cac84a8579",
+                "cec5b6e8b2fb228e"
             ]
         ],
         "outputLabels": [
@@ -6886,7 +7019,7 @@
         "type": "function",
         "z": "be827c2e9f2e7979",
         "name": "registration user",
-        "func": "let randomColor = \"#\" + Math.floor(Math.random() * 16777215).toString(16);\nlet encryptedPassword = await bcrypt.hash(msg.oldpayload.password, 10);\n\nmsg.payload = {\n    \"_id\": objectid(),\n    \"deleted\": false,\n    \"avatarColor\": randomColor,\n    \"createdAt\": global.get(\"convert_date\"),\n    \"updatedAt\": global.get(\"convert_date\"),\n    \"roles\": [objectid(msg.oldpayload.role)],\n    \"active\": false,\n    \"firstname\": msg.oldpayload.firstname,\n    \"lastname\": msg.oldpayload.lastname,\n    \"email\": msg.oldpayload.email,\n    \"password\": encryptedPassword,\n    verifyToken: null,\n    resetPassToken: \"\",\n    resetPassExpireToken: null,\n    \"attributes\": msg.oldpayload.attributes === \"\" ? [] : JSON.parse(msg.oldpayload.attributes)\n}\n\nreturn msg;\n\n\n// -----------------\n// msg.userId = objectid();\n\n// msg.payload = {\n//     \"_id\": msg.userId,\n//     \"deleted\": false,\n//     \"createdAt\": global.get(\"convert_date\"),\n//     \"role\": objectid(msg.oldpayload.role), // Admin\n//     \"active\": false,\n//     \"firstname\": \"\",\n//     \"lastname\": \"\",\n//     \"email\": msg.oldpayload.email,\n//     \"phone\":\"\",\n//     \"company\":\"\"\n// }\n\n// return msg;\n\n\n",
+        "func": "let randomColor = \"#\" + Math.floor(Math.random() * 16777215).toString(16);\nlet encryptedPassword = await bcrypt.hash(msg.oldpayload.password, 10);\n\nmsg.payload = {\n    \"_id\": objectid(),\n    \"deleted\": false,\n    \"avatarColor\": randomColor,\n    \"createdAt\": global.get(\"convert_date\"),\n    \"updatedAt\": global.get(\"convert_date\"),\n    \"roles\": [objectid(msg.oldpayload.role)],\n    \"active\": false,\n    \"firstname\": msg.oldpayload.firstname,\n    \"lastname\": msg.oldpayload.lastname,\n    \"email\": msg.oldpayload.email,\n    \"password\": encryptedPassword,\n    verifyToken: null,\n    resetPassToken: \"\",\n    resetPassExpireToken: null,\n    \"attributes\": msg.oldpayload.attributes === \"\" ? [] : msg.oldpayload.attributes\n}\nnode.warn(msg.oldpayload.attributes);\nreturn msg;\n\n\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6938,17 +7071,21 @@
         "type": "function",
         "z": "be827c2e9f2e7979",
         "name": "send email for app",
-        "func": "const nodeUrl = env.get(\"uiUrl\");\nconst url = `${nodeUrl}/Login`;\n\nconst colorHeading = `color: #1D1D1D;\nfont-family: \"Inter\";\nfont-size: 40px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 48px; /* 120% */\nletter-spacing: -0.8px;`\n\nconst basicText = `color: #8E8E8E;\nfont-family: Inter;\nfont-size: 14px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 24px; /* 171.429% */\nletter-spacing: -0.28px;`\n\nconst link = `\ndisplay: inline-flex;\npadding: 12px 10px;\njustify-content: center;\nalign-items: center;\nborder-radius: 5px;\nbackground: #1D1D1D;\ngap: 4px;\ncolor: #FFF;\nfont-family: Inter;\nfont-size: 14px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 24px; /* 171.429% */\n`\n\nconst text = `\n<div style=\"padding: 10px 0; color: black;\">\n    <h1  style=\"${colorHeading}\">Access to Unified_Auth_Template</h1>\n    <p style=\"${basicText}\">You have gained access to the system Unified_Auth_Template. Follow the link to continue.</p>\n    <p style=\"${basicText}\"></p>\n    <a href=\"${url}\" style=\"${link}\">Log in</a>\n</div>\n`;\n    // <p style=\"${basicText}\">У разі виникнення питань щодо роботи реєстрації та роботи з продутом пишіть на admin@visia.pro</p>\n\n// msg.to = msg.oldpayload.email\nmsg.topic = 'Access to Unified_Auth_Template';\nmsg.payload = text;\n// msg.from = global.get('email')\n\nreturn msg;",
+        "func": "const nodeUrl = env.get(\"uiUrl\");\nconst url = `${nodeUrl}/Login`;\n\nconst colorHeading = `color: #1D1D1D;\nfont-family: \"Inter\";\nfont-size: 40px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 48px; /* 120% */\nletter-spacing: -0.8px;`\n\nconst basicText = `color: #8E8E8E;\nfont-family: Inter;\nfont-size: 14px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 24px; /* 171.429% */\nletter-spacing: -0.28px;`\n\nconst link = `\ndisplay: inline-flex;\nwidth: 100px;\npadding: 12px 10px;\njustify-content: center;\nalign-items: center;\nborder-radius: 5px;\nbackground: #107de1;\ngap: 4px;\ncolor: #FFFFFF;\nfont-family: Inter;\nfont-size: 14px;\nfont-style: normal;\nfont-weight: 400;\nline-height: 24px; \n`\n\nconst text = `\n<div style=\"padding: 10px 0; color: black; display:flex; flex-direction: column\">\n    <h1  style=\"${colorHeading}\">Access to Unified_Auth_Template</h1>\n    <p style=\"${basicText}\">You have gained access to the system Unified_Auth_Template. Follow the link to continue.</p>\n    <a href=\"${url}\" style=\"${link}\">Log in</a>\n</div>\n`;\n    \nmsg.topic = 'Access to Unified_Auth_Template';\n\n\nconst email = global.get('credential').email;\nconst googleAppPassword = global.get('credential').googleAppPassword;\n\n\nlet transporter = nodemailer.createTransport({\n    \"host\": \"smtp.gmail.com\",\n    \"port\": 465,\n    \"secure\": true,\n    \"auth\": {\n        \"user\": email,\n        \"pass\": googleAppPassword\n    }\n});\n\nlet mailOptions = {\n    from: email,\n    to: msg.oldpayload.email,\n    subject: 'Access to UnifiedAuthTemplate',\n    html: text\n};\n\ntransporter.sendMail(mailOptions, function (error, info) {\n    if (error) {\n        node.warn(error);\n    } else {\n        node.warn('Email sent: ' + info.response);\n    }\n});\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "libs": [],
+        "libs": [
+            {
+                "var": "nodemailer",
+                "module": "nodemailer"
+            }
+        ],
         "x": 1190,
         "y": 160,
         "wires": [
             [
-                "6f70f661f167dd24",
                 "3bc3b863ac50762a",
                 "76ab03e5b2e30efb"
             ]
@@ -6959,7 +7096,7 @@
         "type": "function",
         "z": "be827c2e9f2e7979",
         "name": "response",
-        "func": "msg.payload = {\n    data: `Користувач з поштою \"${msg.oldpayload.email}\" вже існує на платформі!`\n}\nreturn msg;",
+        "func": "msg.payload = {\n    data: `User with email \"${msg.oldpayload.email}\" already exists!`\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6985,28 +7122,14 @@
         "wires": []
     },
     {
-        "id": "6f70f661f167dd24",
-        "type": "e-mail",
-        "z": "be827c2e9f2e7979",
-        "server": "smtp.gmail.com",
-        "port": "465",
-        "secure": true,
-        "tls": true,
-        "name": "y.glushko@outlook.com",
-        "dname": "",
-        "x": 1550,
-        "y": 160,
-        "wires": []
-    },
-    {
         "id": "3bc3b863ac50762a",
         "type": "http response",
         "z": "be827c2e9f2e7979",
         "name": "",
         "statusCode": "200",
         "headers": {},
-        "x": 1500,
-        "y": 200,
+        "x": 1380,
+        "y": 160,
         "wires": []
     },
     {
@@ -7014,7 +7137,7 @@
         "type": "function",
         "z": "be827c2e9f2e7979",
         "name": "function 461",
-        "func": "\n// return msg\nif (msg.payload.userAttributes.some(e => e.attributeName === \"update user\")) {\n    msg.collection = \"admins\";\n    // let role = msg.payload.role && msg.payload.role !== \"\" && msg.payload.role !== \"null\" && msg.payload.role !== null ? objectid(msg.payload.role) : ''\n    msg.query = {\n        _id: objectid(msg.req.query._id)\n    }\n    msg.payload = {\n        $set: {\n            ...msg.payload,\n            \"updatedAt\": global.get(\"convert_date\"),\n            \"roles\": [objectid(msg.payload.role)],\n            \"attributes\": JSON.parse(msg.payload.attributes)\n        }\n\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
+        "func": "\n// return msg\nif (msg.payload.userAttributes.some(e => e.attributeName === \"update user\")) {\n    msg.collection = \"admins\";\n    // let role = msg.payload.role && msg.payload.role !== \"\" && msg.payload.role !== \"null\" && msg.payload.role !== null ? objectid(msg.payload.role) : ''\n    msg.query = {\n        _id: objectid(msg.req.query._id)\n    }\n    msg.payload = {\n        $set: {\n            ...msg.payload,\n            \"updatedAt\": global.get(\"convert_date\"),\n            \"roles\": [objectid(msg.payload.role)],\n            \"attributes\": msg.payload.attributes\n        }\n\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -7274,25 +7397,14 @@
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 560,
+        "x": 530,
         "y": 440,
         "wires": [
             [
                 "4aefaf67727dbce0",
-                "4ff271b6b3e503ce"
+                "c787c8088d0b4975"
             ]
         ]
-    },
-    {
-        "id": "4ff271b6b3e503ce",
-        "type": "http response",
-        "z": "be827c2e9f2e7979",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 730,
-        "y": 440,
-        "wires": []
     },
     {
         "id": "605cec69b9e36241",
@@ -7571,7 +7683,7 @@
         "type": "debug",
         "z": "be827c2e9f2e7979",
         "name": "debug 29",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -7579,7 +7691,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 440,
+        "x": 660,
         "y": 400,
         "wires": []
     },
@@ -7603,8 +7715,7 @@
         "y": 440,
         "wires": [
             [
-                "687ecdb367fb1ae7",
-                "4aefaf67727dbce0"
+                "687ecdb367fb1ae7"
             ]
         ]
     },
@@ -7734,11 +7845,23 @@
         "wires": []
     },
     {
+        "id": "c787c8088d0b4975",
+        "type": "http response",
+        "z": "be827c2e9f2e7979",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 710,
+        "y": 440,
+        "wires": []
+    },
+    {
         "id": "967b38b536709fe7",
         "type": "function",
         "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
         "name": "",
-        "func": "\nif (msg.payload.userAttributes.some(e => e.attributeName === \"create attributes\")) {\n    msg.collection = \"attributes\";\n\n    msg.payload = {\n        _id: objectid(),\n        name: msg.payload.name,\n        parentGroupId: msg.payload.parentGroupId,\n        deleted: false,\n        createdAt: global.get(\"convert_date\")\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
+        "func": "\nif (msg.payload.userAttributes.some(e => e.attributeName === \"create attribute\")) {\n    msg.collection = \"attributes\";\n\n    msg.payload = {\n        _id: objectid(),\n        attributeName: msg.payload.name,\n        parentGroupId: msg.payload.parentGroupId,\n        deleted: false,\n        createdAt: global.get(\"convert_date\")\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -7749,7 +7872,7 @@
                 "module": "objectid"
             }
         ],
-        "x": 340,
+        "x": 420,
         "y": 200,
         "wires": [
             [
@@ -7764,6 +7887,7 @@
         "id": "11990fd0e53a6fba",
         "type": "http in",
         "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
         "name": "",
         "url": "/createAttribute",
         "method": "post",
@@ -7782,10 +7906,11 @@
         "id": "bc62308fe59a8de8",
         "type": "http response",
         "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1050,
+        "x": 1090,
         "y": 180,
         "wires": []
     },
@@ -7793,13 +7918,14 @@
         "id": "1d8898a2f227d8a0",
         "type": "http in",
         "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
         "name": "",
         "url": "/getAttributes",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 170,
-        "y": 100,
+        "x": 150,
+        "y": 120,
         "wires": [
             [
                 "f3a9ec493a3788a1"
@@ -7810,24 +7936,26 @@
         "id": "18107938eda1b521",
         "type": "http response",
         "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 710,
-        "y": 100,
+        "x": 750,
+        "y": 120,
         "wires": []
     },
     {
         "id": "c9b84712515e3dd6",
         "type": "link call",
         "z": "ffd8bc62df2cb641",
-        "name": "",
+        "g": "8017305e1b09baac",
+        "name": "insert",
         "links": [
             "193774ea3ceea673"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 510,
+        "x": 590,
         "y": 180,
         "wires": [
             [
@@ -7839,15 +7967,16 @@
         "id": "f3a9ec493a3788a1",
         "type": "function",
         "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
         "name": "",
-        "func": "msg.collection =\"attributes\"\n\nmsg.payload = [\n    {\n        $match: {\n            deleted: false\n        }\n    },\n    {\n        $lookup: {\n            \"from\": \"attributeGroups\",\n            \"let\": { parentGroupId: { $toObjectId: \"$parentGroupId\" } },\n            \"pipeline\": [\n                { $match: { $expr: { $eq: [\"$_id\", \"$$parentGroupId\"] } } }\n            ],\n            \"as\": \"parentGroup\"\n        }\n    },   \n    {\n        $unwind: \"$parentGroup\" // Розгортаємо масив parentGroup\n    },\n    {\n        $project: {\n            _id: 1,\n            name: 1,\n            parentGroupId: 1,\n            deleted: 1,\n            createdAt: 1,       \n            parentGroupName: \"$parentGroup.name\", // Зберігаємо лише поле name з parentGroup\n        }\n    }\n]\nreturn msg;",
+        "func": "msg.collection =\"attributes\"\n\nmsg.payload = [\n    {\n        $match: {\n            deleted: false\n        }\n    },\n    {\n        $lookup: {\n            \"from\": \"attributeGroups\",\n            \"let\": { parentGroupId: { $toObjectId: \"$parentGroupId\" } },\n            \"pipeline\": [\n                { $match: { $expr: { $eq: [\"$_id\", \"$$parentGroupId\"] } } }\n            ],\n            \"as\": \"parentGroup\"\n        }\n    },   \n    {\n        $unwind: \"$parentGroup\" // Розгортаємо масив parentGroup\n    },\n    {\n        $project: {\n            _id: 1,\n            attributeName: 1,\n            parentGroupId: 1,\n            deleted: 1,\n            createdAt: 1,       \n            parentGroupName: \"$parentGroup.name\", // Зберігаємо лише поле name з parentGroup\n        }\n    }\n]\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
-        "y": 100,
+        "x": 420,
+        "y": 120,
         "wires": [
             [
                 "41082da2d42a752f"
@@ -7858,14 +7987,15 @@
         "id": "41082da2d42a752f",
         "type": "link call",
         "z": "ffd8bc62df2cb641",
-        "name": "",
+        "g": "8017305e1b09baac",
+        "name": "aggregate",
         "links": [
             "103fddb829bcd575"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 520,
-        "y": 100,
+        "x": 590,
+        "y": 120,
         "wires": [
             [
                 "18107938eda1b521"
@@ -7873,45 +8003,17 @@
         ]
     },
     {
-        "id": "3f22ea663bea79f2",
-        "type": "inject",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 200,
-        "y": 60,
-        "wires": [
-            [
-                "f3a9ec493a3788a1"
-            ]
-        ]
-    },
-    {
         "id": "261c5bded767b2b4",
         "type": "http in",
         "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
         "name": "",
         "url": "/getAttributeGroups",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 150,
-        "y": 520,
+        "x": 170,
+        "y": 620,
         "wires": [
             [
                 "0421c50f4782c973"
@@ -7922,17 +8024,19 @@
         "id": "1baa51cbce7e76b1",
         "type": "http response",
         "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 650,
-        "y": 520,
+        "x": 770,
+        "y": 620,
         "wires": []
     },
     {
         "id": "0421c50f4782c973",
         "type": "function",
         "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
         "name": "",
         "func": "msg.collection = \"attributeGroups\"\nmsg.payload = {\n    deleted: false\n}\nreturn msg;\n",
         "outputs": 1,
@@ -7940,8 +8044,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
-        "y": 520,
+        "x": 440,
+        "y": 620,
         "wires": [
             [
                 "8e96779083d375e5"
@@ -7952,14 +8056,15 @@
         "id": "8e96779083d375e5",
         "type": "link call",
         "z": "ffd8bc62df2cb641",
-        "name": "",
+        "g": "0dd2dfd7df691836",
+        "name": "find",
         "links": [
             "ba97e8986832bd94"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 500,
-        "y": 520,
+        "x": 600,
+        "y": 620,
         "wires": [
             [
                 "1baa51cbce7e76b1"
@@ -7967,47 +8072,19 @@
         ]
     },
     {
-        "id": "6d967f6d335cf3da",
-        "type": "inject",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 200,
-        "y": 480,
-        "wires": [
-            [
-                "0421c50f4782c973"
-            ]
-        ]
-    },
-    {
         "id": "34d1252fc0218b0c",
         "type": "function",
         "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
         "name": "",
-        "func": "\nif (msg.payload.userAttributes.some(e => e.attributeName === \"create attributes\")) {\n    msg.collection = \"attributeGroups\";\n\n    msg.payload = {\n        name: msg.payload.name,\n        attributes: [],\n        deleted: false,\n        createdAt: global.get(\"convert_date\")\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
+        "func": "\nif (msg.payload.userAttributes.some(e => e.attributeName === \"create attribute\")) {\n    msg.collection = \"attributeGroups\";\n\n    msg.payload = {\n        name: msg.payload.name,\n        attributes: [],\n        deleted: false,\n        createdAt: global.get(\"convert_date\")\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
-        "y": 620,
+        "x": 440,
+        "y": 800,
         "wires": [
             [
                 "49d6c5c868c08944"
@@ -8021,13 +8098,14 @@
         "id": "ee34f725c36258fb",
         "type": "http in",
         "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
         "name": "",
         "url": "/createAttributeGroup",
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
-        "x": 140,
-        "y": 620,
+        "x": 180,
+        "y": 800,
         "wires": [
             [
                 "34d1252fc0218b0c"
@@ -8039,25 +8117,27 @@
         "id": "6ab1ae0e1fc2625c",
         "type": "http response",
         "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 670,
-        "y": 600,
+        "x": 770,
+        "y": 780,
         "wires": []
     },
     {
         "id": "49d6c5c868c08944",
         "type": "link call",
         "z": "ffd8bc62df2cb641",
-        "name": "",
+        "g": "0dd2dfd7df691836",
+        "name": "insert",
         "links": [
             "193774ea3ceea673"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 510,
-        "y": 600,
+        "x": 610,
+        "y": 780,
         "wires": [
             [
                 "6ab1ae0e1fc2625c"
@@ -8068,13 +8148,14 @@
         "id": "501401efb1622ba4",
         "type": "http in",
         "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
         "name": "",
         "url": "/getAttributeGroupsForSelect",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 160,
-        "y": 720,
+        "x": 200,
+        "y": 900,
         "wires": [
             [
                 "edc1aaa95fc8679b"
@@ -8085,17 +8166,19 @@
         "id": "4e90347d61e38683",
         "type": "http response",
         "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 890,
-        "y": 720,
+        "x": 950,
+        "y": 900,
         "wires": []
     },
     {
         "id": "edc1aaa95fc8679b",
         "type": "function",
         "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
         "name": "",
         "func": "msg.collection=\"attributeGroups\"\nmsg.payload={   \n    deleted: false   \n}\nreturn msg;",
         "outputs": 1,
@@ -8103,8 +8186,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 380,
-        "y": 720,
+        "x": 440,
+        "y": 900,
         "wires": [
             [
                 "c46dbe0176460b95"
@@ -8115,14 +8198,15 @@
         "id": "c46dbe0176460b95",
         "type": "link call",
         "z": "ffd8bc62df2cb641",
-        "name": "",
+        "g": "0dd2dfd7df691836",
+        "name": "find",
         "links": [
             "ba97e8986832bd94"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 550,
-        "y": 720,
+        "x": 610,
+        "y": 900,
         "wires": [
             [
                 "e65d59948baddfef"
@@ -8130,38 +8214,10 @@
         ]
     },
     {
-        "id": "184e58aa553a895d",
-        "type": "inject",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 240,
-        "y": 680,
-        "wires": [
-            [
-                "edc1aaa95fc8679b"
-            ]
-        ]
-    },
-    {
         "id": "e65d59948baddfef",
         "type": "function",
         "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
         "name": "function 535",
         "func": "const array = []\nconst oldArray = msg.payload\noldArray.map(group => {\n    const changedGroup = {\n        \"label\": group.name,\n        \"value\": group._id\n    }\n    array.push(changedGroup)\n})\n\nmsg.payload = {\n    array\n}\nreturn msg;",
         "outputs": 1,
@@ -8169,8 +8225,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 730,
-        "y": 720,
+        "x": 790,
+        "y": 900,
         "wires": [
             [
                 "4e90347d61e38683"
@@ -8181,6 +8237,7 @@
         "id": "9dd8dd2c0c576b82",
         "type": "function",
         "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
         "name": "function 536",
         "func": "msg.collection = 'attributeGroups'\nmsg.query = {\n    _id: objectid(msg.payload.parentGroupId)\n}\nmsg.payload = {\n    $push: {\n        \"attributes\": {attributeId: msg.payload._id}\n    },\n    $set: {\n        \"updatedAt\": global.get(\"convert_date\")\n    }\n\n}\nreturn msg;",
         "outputs": 1,
@@ -8193,7 +8250,7 @@
                 "module": "objectid"
             }
         ],
-        "x": 690,
+        "x": 770,
         "y": 180,
         "wires": [
             [
@@ -8205,13 +8262,14 @@
         "id": "0d03bbc99874bf74",
         "type": "link call",
         "z": "ffd8bc62df2cb641",
-        "name": "",
+        "g": "8017305e1b09baac",
+        "name": "update",
         "links": [
             "a724f172bc7c2de5"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 880,
+        "x": 940,
         "y": 180,
         "wires": [
             [
@@ -8223,12 +8281,13 @@
         "id": "6b07fb9e75bbc6e5",
         "type": "http in",
         "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
         "name": "",
         "url": "/getAttributesForSelect",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 140,
+        "x": 180,
         "y": 280,
         "wires": [
             [
@@ -8240,10 +8299,11 @@
         "id": "e130804ebf1ff0c1",
         "type": "http response",
         "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 850,
+        "x": 930,
         "y": 280,
         "wires": []
     },
@@ -8251,6 +8311,7 @@
         "id": "be9cb6eb76e34774",
         "type": "function",
         "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
         "name": "",
         "func": "msg.collection =\"attributes\"\nmsg.payload={\n    deleted: false\n}\nreturn msg;",
         "outputs": 1,
@@ -8258,7 +8319,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
+        "x": 420,
         "y": 280,
         "wires": [
             [
@@ -8270,13 +8331,14 @@
         "id": "27120df009d576cc",
         "type": "link call",
         "z": "ffd8bc62df2cb641",
-        "name": "",
+        "g": "8017305e1b09baac",
+        "name": "find",
         "links": [
             "ba97e8986832bd94"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 510,
+        "x": 590,
         "y": 280,
         "wires": [
             [
@@ -8285,46 +8347,18 @@
         ]
     },
     {
-        "id": "51fd2cd34b9e3e8b",
-        "type": "inject",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 200,
-        "y": 240,
-        "wires": [
-            [
-                "be9cb6eb76e34774"
-            ]
-        ]
-    },
-    {
         "id": "8f3063bfe73244df",
         "type": "function",
         "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
         "name": "function 537",
-        "func": "const array = []\nconst oldArray = msg.payload\noldArray.map(e => {\n    const changedEl = {\n        \"label\": e.name,\n        \"value\": e._id\n    }\n    array.push(changedEl)\n})\n\nmsg.payload = {\n    array\n}\nreturn msg;",
+        "func": "const array = []\nconst oldArray = msg.payload\noldArray.map(e => {\n    const changedEl = {\n        \"label\": e.attributeName,\n        \"value\": e._id\n    }\n    array.push(changedEl)\n})\n\nmsg.payload = {\n    array\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 690,
+        "x": 770,
         "y": 280,
         "wires": [
             [
@@ -8336,12 +8370,13 @@
         "id": "1adb2506e05b4f4c",
         "type": "http in",
         "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
         "name": "",
         "url": "/deleteAttribute",
         "method": "put",
         "upload": false,
         "swaggerDoc": "",
-        "x": 170,
+        "x": 150,
         "y": 360,
         "wires": [
             [
@@ -8353,10 +8388,11 @@
         "id": "be75b957f9ce2ca9",
         "type": "http response",
         "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1450,
+        "x": 1430,
         "y": 340,
         "wires": []
     },
@@ -8364,6 +8400,7 @@
         "id": "283b1955ab0b86ee",
         "type": "function",
         "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
         "name": "",
         "func": "msg.collection =\"attributes\"\nmsg.attributeData = msg.payload\nmsg.query = {\n    _id: objectid(msg.attributeId)\n}\nmsg.payload = {\n    $set: {\n    deleted: true\n    }\n}\nreturn msg;\n",
         "outputs": 1,
@@ -8376,7 +8413,7 @@
                 "module": "objectid"
             }
         ],
-        "x": 720,
+        "x": 760,
         "y": 340,
         "wires": [
             [
@@ -8388,13 +8425,14 @@
         "id": "c4b676987c9327e2",
         "type": "link call",
         "z": "ffd8bc62df2cb641",
-        "name": "",
+        "g": "8017305e1b09baac",
+        "name": "update",
         "links": [
             "a724f172bc7c2de5"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 900,
+        "x": 940,
         "y": 340,
         "wires": [
             [
@@ -8403,320 +8441,10 @@
         ]
     },
     {
-        "id": "5c959cbd7da43c5d",
-        "type": "http in",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "url": "/getAllAttributesForAddUserTable",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 190,
-        "y": 1020,
-        "wires": [
-            [
-                "d159da8e66061e7b"
-            ]
-        ]
-    },
-    {
-        "id": "d159da8e66061e7b",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "func": "msg.oldPayload = msg.payload\nmsg.arrayFromGroups = msg.oldPayload.atrributesGroupIds ? JSON.parse(msg.oldPayload.atrributesGroupIds) : ''\n\nif (msg.payload.attributeIds && JSON.parse(msg.payload.attributeIds) !== \"\" && JSON.parse(msg.payload.attributeIds).length !== 0 && msg.payload.atrributesGroupIds && JSON.parse(msg.payload.atrributesGroupIds) !== \"\" && JSON.parse(msg.payload.atrributesGroupIds).length !== 0) {\n    return [msg, msg, null, null]\n} else if (msg.payload.attributeIds && JSON.parse(msg.payload.attributeIds) !== \"\" && JSON.parse(msg.payload.attributeIds).length !== 0) {\n    return [null, msg, null, null]\n} else if (msg.payload.atrributesGroupIds && JSON.parse(msg.payload.atrributesGroupIds) !== \"\" && JSON.parse(msg.payload.atrributesGroupIds).length !== 0) {\n    return [null, null, msg, null]\n} else {\n    return [null, null, null, msg]\n}\n",
-        "outputs": 4,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 460,
-        "y": 1020,
-        "wires": [
-            [
-                "f90fb30f330360db"
-            ],
-            [
-                "f90fb30f330360db"
-            ],
-            [
-                "216f66d2e49cb321"
-            ],
-            [
-                "f1a460ca971d73c4"
-            ]
-        ]
-    },
-    {
-        "id": "4d40f99b4b49d2da",
-        "type": "link call",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "links": [
-            "ba97e8986832bd94"
-        ],
-        "linkType": "static",
-        "timeout": "30",
-        "x": 1450,
-        "y": 1080,
-        "wires": [
-            [
-                "4717220f4b729bbe"
-            ]
-        ]
-    },
-    {
-        "id": "298ab664acd2fdb0",
-        "type": "inject",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 260,
-        "y": 980,
-        "wires": [
-            [
-                "d159da8e66061e7b"
-            ]
-        ]
-    },
-    {
-        "id": "f90fb30f330360db",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "function 538",
-        "func": "msg.arrayFromIds = msg.oldPayload.attributeIds ? JSON.parse(msg.oldPayload.attributeIds) : ''\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 670,
-        "y": 940,
-        "wires": [
-            [
-                "4de70f170db2fb76"
-            ]
-        ]
-    },
-    {
-        "id": "4de70f170db2fb76",
-        "type": "array-loop",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "key": "count",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "arrayFromIds",
-        "arrayType": "msg",
-        "x": 870,
-        "y": 940,
-        "wires": [
-            [
-                "58e9e4eb1598f944"
-            ],
-            [
-                "d03f45a51f5da066"
-            ]
-        ]
-    },
-    {
-        "id": "d03f45a51f5da066",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "function 539",
-        "func": "msg.collection = \"attributes\"\nmsg.payload = {\n    _id: objectid(msg.payload),\n    deleted: false\n}\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [
-            {
-                "var": "objectid",
-                "module": "objectid"
-            }
-        ],
-        "x": 690,
-        "y": 860,
-        "wires": [
-            [
-                "74a15ca4f0db2058"
-            ]
-        ]
-    },
-    {
-        "id": "74a15ca4f0db2058",
-        "type": "link call",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "links": [
-            "ba97e8986832bd94"
-        ],
-        "linkType": "static",
-        "timeout": "30",
-        "x": 870,
-        "y": 860,
-        "wires": [
-            [
-                "247ad18c5d99402a"
-            ]
-        ]
-    },
-    {
-        "id": "247ad18c5d99402a",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "function 540",
-        "func": "let arr = [];\narr.push(msg.payload[0])\n\nif (msg.finallArray) {\n  msg.finallArray.push(msg.payload[0])\n}\nif (!msg.finallArray) {\n   msg.finallArray = arr\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1090,
-        "y": 860,
-        "wires": [
-            [
-                "4de70f170db2fb76"
-            ]
-        ]
-    },
-    {
-        "id": "58e9e4eb1598f944",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "function 541",
-        "func": "msg.payload = msg.finallArray\n\nif (!msg.arrayFromGroups || msg.arrayFromGroups.length === 0) {\n    return [msg, null]\n} else {\n    \n    return [null, msg]\n}",
-        "outputs": 2,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1070,
-        "y": 920,
-        "wires": [
-            [
-                "8bf01ee0ff56c321"
-            ],
-            [
-                "216f66d2e49cb321"
-            ]
-        ]
-    },
-    {
-        "id": "f1a460ca971d73c4",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "function 542",
-        "func": "msg.payload = {\n    data: `No attribute or group provided`\n}\nreturn msg;\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 670,
-        "y": 1100,
-        "wires": [
-            [
-                "0b55612f7d72d332"
-            ]
-        ]
-    },
-    {
-        "id": "0b55612f7d72d332",
-        "type": "http response",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 830,
-        "y": 1100,
-        "wires": []
-    },
-    {
-        "id": "216f66d2e49cb321",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "function 543",
-        "func": "msg.arrayFromGroups = msg.oldPayload.atrributesGroupIds ? JSON.parse(msg.oldPayload.atrributesGroupIds) : ''\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1270,
-        "y": 960,
-        "wires": [
-            [
-                "539c7e71c5fc7194"
-            ]
-        ]
-    },
-    {
-        "id": "539c7e71c5fc7194",
-        "type": "array-loop",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "key": "countSecond",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "arrayFromGroups",
-        "arrayType": "msg",
-        "x": 1500,
-        "y": 960,
-        "wires": [
-            [
-                "8bf01ee0ff56c321"
-            ],
-            [
-                "44a1dda285a05661"
-            ]
-        ]
-    },
-    {
-        "id": "44a1dda285a05661",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "function 544",
-        "func": "msg.collection = \"attributeGroups\"\nmsg.payload = {\n    _id: objectid(msg.payload),\n    deleted: false\n}\n\nreturn msg;\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [
-            {
-                "var": "objectid",
-                "module": "objectid"
-            }
-        ],
-        "x": 1710,
-        "y": 980,
-        "wires": [
-            [
-                "4d40f99b4b49d2da"
-            ]
-        ]
-    },
-    {
         "id": "ec2d2701a0352fb3",
         "type": "function",
         "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
         "name": "function 545",
         "func": "msg.collection = \"attributeGroups\";\n\nlet _id = msg.attributeData[0].parentGroupId;\nlet attributeIdToUpdate = msg.attributeId;\n\n\n\n\nmsg.query = { _id: objectid(_id) };\nmsg.payload = {\n    $pull: {\n        \"attributes\": {\n            \"attributeId\": objectid(attributeIdToUpdate)\n        }\n    }\n};\nreturn msg;\n",
         "outputs": 1,
@@ -8729,7 +8457,7 @@
                 "module": "objectid"
             }
         ],
-        "x": 1090,
+        "x": 1110,
         "y": 340,
         "wires": [
             [
@@ -8741,7 +8469,8 @@
         "id": "cf4e325526af01ec",
         "type": "link call",
         "z": "ffd8bc62df2cb641",
-        "name": "",
+        "g": "8017305e1b09baac",
+        "name": "update",
         "links": [
             "a724f172bc7c2de5"
         ],
@@ -8759,8 +8488,9 @@
         "id": "4f1e78e341e1d8e1",
         "type": "function",
         "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
         "name": "function 546",
-        "func": "\nif (msg.payload.userAttributes.some(e => e.attributeName === \"delete attributes\")) {\n    msg.attributeId = msg.payload.attributeId\n    msg.collection = \"attributes\"\n\n    msg.payload = {\n        _id: objectid(msg.payload.attributeId)\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
+        "func": "\nif (msg.payload.userAttributes.some(e => e.attributeName === \"delete attribute\")) {\n    msg.attributeId = msg.payload.attributeId\n    msg.collection = \"attributes\"\n\n    msg.payload = {\n        _id: objectid(msg.payload.attributeId)\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -8771,7 +8501,7 @@
                 "module": "objectid"
             }
         ],
-        "x": 350,
+        "x": 430,
         "y": 360,
         "wires": [
             [
@@ -8786,13 +8516,14 @@
         "id": "f89bf2fa98334f94",
         "type": "link call",
         "z": "ffd8bc62df2cb641",
-        "name": "",
+        "g": "8017305e1b09baac",
+        "name": "find",
         "links": [
             "ba97e8986832bd94"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 530,
+        "x": 590,
         "y": 340,
         "wires": [
             [
@@ -8801,163 +8532,17 @@
         ]
     },
     {
-        "id": "4717220f4b729bbe",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "function 547",
-        "func": "msg.secondArray = msg.payload[0].attributes\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1650,
-        "y": 1080,
-        "wires": [
-            [
-                "82eedb4f465121c8"
-            ]
-        ]
-    },
-    {
-        "id": "ee3363d29e296c5f",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "function 548",
-        "func": "msg.collection = \"attributes\"\nmsg.payload = {\n    _id: objectid(msg.payload.attributeId),\n    deleted: false\n}\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [
-            {
-                "var": "objectid",
-                "module": "objectid"
-            }
-        ],
-        "x": 1730,
-        "y": 1160,
-        "wires": [
-            [
-                "85072299fbdabf59"
-            ]
-        ]
-    },
-    {
-        "id": "85072299fbdabf59",
-        "type": "link call",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "links": [
-            "ba97e8986832bd94"
-        ],
-        "linkType": "static",
-        "timeout": "30",
-        "x": 1910,
-        "y": 1160,
-        "wires": [
-            [
-                "7686245b3510baef"
-            ]
-        ]
-    },
-    {
-        "id": "7686245b3510baef",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "function 549",
-        "func": "let arr = [];\narr.push(msg.payload[0])\n\nif (msg.finallArrayFromGroups) {\n  msg.finallArrayFromGroups.push(msg.payload[0])\n}\nif (!msg.finallArrayFromGroups) {\n   msg.finallArrayFromGroups = arr\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2090,
-        "y": 1160,
-        "wires": [
-            [
-                "82eedb4f465121c8"
-            ]
-        ]
-    },
-    {
-        "id": "82eedb4f465121c8",
-        "type": "array-loop",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "key": "thirdCount",
-        "keyType": "msg",
-        "reset": true,
-        "resetValue": "value-null",
-        "array": "secondArray",
-        "arrayType": "msg",
-        "x": 1870,
-        "y": 1080,
-        "wires": [
-            [
-                "539c7e71c5fc7194"
-            ],
-            [
-                "ee3363d29e296c5f"
-            ]
-        ]
-    },
-    {
-        "id": "8bf01ee0ff56c321",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "function 551",
-        "func": "const result = []\nif (!msg.finallArrayFromGroups && msg.finallArray.length > 0) {\n    result.push(...msg.finallArray)\n}\nif (!msg.finallArray && msg.finallArrayFromGroups.length > 0) {\n    result.push(...msg.finallArrayFromGroups)\n}\nif (msg.finallArrayFromGroups && msg.finallArray && msg.finallArrayFromGroups.length > 0 && msg.finallArray.length > 0) {\nconst combinedArray = [...msg.finallArrayFromGroups, ...msg.finallArray];\n    node.warn(combinedArray);\n\n// Вибрати тільки унікальні елементи за полем _id\nconst uniqueArray = combinedArray.filter((task, index, self) =>\n    \n    index === self.findIndex(t => t._id.toString() === task._id.toString())\n\n);\n\n\n    node.warn(uniqueArray);\n    result.push(...uniqueArray)\n}\n\n\nmsg.payload = result\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [
-            {
-                "var": "objectid",
-                "module": "objectid"
-            }
-        ],
-        "x": 1710,
-        "y": 920,
-        "wires": [
-            [
-                "548773affdfd8214"
-            ]
-        ]
-    },
-    {
-        "id": "548773affdfd8214",
-        "type": "http response",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 1870,
-        "y": 920,
-        "wires": []
-    },
-    {
-        "id": "4adf974032dea12c",
-        "type": "comment",
-        "z": "ffd8bc62df2cb641",
-        "name": "Groups",
-        "info": "",
-        "x": 70,
-        "y": 440,
-        "wires": []
-    },
-    {
         "id": "953d7da5f2d0443b",
         "type": "http in",
         "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
         "name": "",
         "url": "/deleteAttributeGroup",
         "method": "put",
         "upload": false,
         "swaggerDoc": "",
-        "x": 150,
-        "y": 1280,
+        "x": 170,
+        "y": 1020,
         "wires": [
             [
                 "9a40fcd96b565db9"
@@ -8968,8 +8553,9 @@
         "id": "9a40fcd96b565db9",
         "type": "function",
         "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
         "name": "function 553",
-        "func": "\nif (msg.payload.userAttributes.some(e => e.attributeName === \"delete attributes\")) {\n    msg.collection = \"attributeGroups\"\n    msg.groupId = msg.payload.groupId\n    msg.payload = {\n        _id: objectid(msg.payload.groupId),\n        deleted: false\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
+        "func": "\nif (msg.payload.userAttributes.some(e => e.attributeName === \"delete attribute\")) {\n    msg.collection = \"attributeGroups\"\n    msg.groupId = msg.payload.groupId\n    msg.payload = {\n        _id: objectid(msg.payload.groupId),\n        deleted: false\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
@@ -8980,8 +8566,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 370,
-        "y": 1280,
+        "x": 450,
+        "y": 1020,
         "wires": [
             [
                 "2aec3884b0e8fe77"
@@ -8995,14 +8581,15 @@
         "id": "2aec3884b0e8fe77",
         "type": "link call",
         "z": "ffd8bc62df2cb641",
-        "name": "",
+        "g": "0dd2dfd7df691836",
+        "name": "find",
         "links": [
             "ba97e8986832bd94"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 550,
-        "y": 1240,
+        "x": 610,
+        "y": 980,
         "wires": [
             [
                 "71785d945a876f29"
@@ -9013,26 +8600,33 @@
         "id": "ad23eae8487a21b6",
         "type": "http response",
         "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 1470,
-        "y": 1220,
+        "x": 1310,
+        "y": 940,
         "wires": []
     },
     {
         "id": "71785d945a876f29",
         "type": "function",
         "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
         "name": "function 554",
-        "func": "if (msg.payload[0].attributes.length === 0) {\n    return [msg, null]\n} else {\n    msg.array = msg.payload[0].attributes\n    return [null, msg]\n}\n",
+        "func": "if (msg.payload[0].attributes.length === 0) {\n    return [msg, null];\n} else {\n    msg.array = msg.payload[0].attributes\n\n    return [null, msg];\n}\n",
         "outputs": 2,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "libs": [],
-        "x": 730,
-        "y": 1240,
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 790,
+        "y": 980,
         "wires": [
             [
                 "e19d8787f98358c6"
@@ -9046,14 +8640,15 @@
         "id": "99e53ced21107518",
         "type": "link call",
         "z": "ffd8bc62df2cb641",
-        "name": "",
+        "g": "0dd2dfd7df691836",
+        "name": "update",
         "links": [
             "a724f172bc7c2de5"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1020,
-        "y": 1360,
+        "x": 1100,
+        "y": 1100,
         "wires": [
             [
                 "f851fdda6d471595"
@@ -9064,6 +8659,7 @@
         "id": "f851fdda6d471595",
         "type": "array-loop",
         "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
         "name": "",
         "key": "count",
         "keyType": "msg",
@@ -9071,8 +8667,8 @@
         "resetValue": "value-null",
         "array": "array",
         "arrayType": "msg",
-        "x": 920,
-        "y": 1260,
+        "x": 980,
+        "y": 1020,
         "wires": [
             [
                 "e19d8787f98358c6"
@@ -9086,6 +8682,7 @@
         "id": "ebccf0c35e9857e7",
         "type": "function",
         "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
         "name": "function 555",
         "func": "msg.collection = \"attributes\"\n\nmsg.query = {\n    _id: objectid(msg.payload.attributeId),\n    deleted: false\n}\nmsg.payload = {\n    $set: {\n        deleted: true\n    }\n}\nreturn msg;\n",
         "outputs": 1,
@@ -9098,8 +8695,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 1110,
-        "y": 1280,
+        "x": 1170,
+        "y": 1040,
         "wires": [
             [
                 "99e53ced21107518"
@@ -9110,6 +8707,7 @@
         "id": "e19d8787f98358c6",
         "type": "function",
         "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
         "name": "function 556",
         "func": "msg.collection = \"attributeGroups\"\n\nmsg.query = {\n    _id: objectid(msg.groupId),\n    deleted: false\n}\nmsg.payload = {\n    $set: {\n        deleted: true\n    }\n}\nreturn msg;\n",
         "outputs": 1,
@@ -9122,8 +8720,8 @@
                 "module": "objectid"
             }
         ],
-        "x": 1110,
-        "y": 1220,
+        "x": 990,
+        "y": 940,
         "wires": [
             [
                 "08a6980a9d700659"
@@ -9134,14 +8732,15 @@
         "id": "08a6980a9d700659",
         "type": "link call",
         "z": "ffd8bc62df2cb641",
-        "name": "",
+        "g": "0dd2dfd7df691836",
+        "name": "update",
         "links": [
             "a724f172bc7c2de5"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 1300,
-        "y": 1220,
+        "x": 1160,
+        "y": 940,
         "wires": [
             [
                 "ad23eae8487a21b6"
@@ -9152,458 +8751,29 @@
         "id": "153e790f04d68a9a",
         "type": "http in",
         "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
         "name": "",
-        "url": "/getAllAttributesForEditUserTable",
+        "url": "/getUniqueAttributes",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
         "x": 170,
-        "y": 1600,
+        "y": 440,
         "wires": [
             [
-                "eee0fd562c5a8153"
+                "96ef3d0bf7cd2325"
             ]
         ]
-    },
-    {
-        "id": "eee0fd562c5a8153",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "func": "msg.oldPayload = msg.payload\nmsg.arrayFromGroups = msg.oldPayload.atrributesGroupIds ? JSON.parse(msg.oldPayload.atrributesGroupIds) : ''\n\nif (msg.payload.attributeIds && JSON.parse(msg.payload.attributeIds) !== \"\" && JSON.parse(msg.payload.attributeIds).length !== 0 && msg.payload.atrributesGroupIds && JSON.parse(msg.payload.atrributesGroupIds) !== \"\" && JSON.parse(msg.payload.atrributesGroupIds).length !== 0) {\n    return [msg, msg, null, null]\n} else if (msg.payload.attributeIds && JSON.parse(msg.payload.attributeIds) !== \"\" && JSON.parse(msg.payload.attributeIds).length !== 0) {\n    return [null, msg, null, null]\n} else if (msg.payload.atrributesGroupIds && JSON.parse(msg.payload.atrributesGroupIds) !== \"\" && JSON.parse(msg.payload.atrributesGroupIds).length !== 0) {\n    return [null, null, msg, null]\n} else {\n    return [null, null, null, msg]\n}\n",
-        "outputs": 4,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 440,
-        "y": 1600,
-        "wires": [
-            [
-                "6a8f061881528a09"
-            ],
-            [
-                "6a8f061881528a09"
-            ],
-            [
-                "b577c38c2d848158"
-            ],
-            [
-                "d79eb3371e8247d1"
-            ]
-        ]
-    },
-    {
-        "id": "1b56b4d08f483f3c",
-        "type": "link call",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "links": [
-            "ba97e8986832bd94"
-        ],
-        "linkType": "static",
-        "timeout": "30",
-        "x": 1850,
-        "y": 1520,
-        "wires": [
-            [
-                "09fecb8fe5eb9f01"
-            ]
-        ]
-    },
-    {
-        "id": "ba2df0d2a280e050",
-        "type": "inject",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 260,
-        "y": 1560,
-        "wires": [
-            [
-                "eee0fd562c5a8153"
-            ]
-        ]
-    },
-    {
-        "id": "6a8f061881528a09",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "function 557",
-        "func": "msg.arrayFromIds = msg.oldPayload.attributeIds ? JSON.parse(msg.oldPayload.attributeIds) : ''\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 670,
-        "y": 1560,
-        "wires": [
-            [
-                "ea5bca61eeb834a3"
-            ]
-        ]
-    },
-    {
-        "id": "ea5bca61eeb834a3",
-        "type": "array-loop",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "key": "count",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "arrayFromIds",
-        "arrayType": "msg",
-        "x": 890,
-        "y": 1560,
-        "wires": [
-            [
-                "7663eff83908ef20"
-            ],
-            [
-                "7bfb0bd637f003f2"
-            ]
-        ]
-    },
-    {
-        "id": "7bfb0bd637f003f2",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "function 558",
-        "func": "msg.collection = \"attributes\"\nmsg.payload = {\n    _id: objectid(msg.payload),\n    deleted: false\n}\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [
-            {
-                "var": "objectid",
-                "module": "objectid"
-            }
-        ],
-        "x": 1090,
-        "y": 1620,
-        "wires": [
-            [
-                "c78857e487133afa"
-            ]
-        ]
-    },
-    {
-        "id": "c78857e487133afa",
-        "type": "link call",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "links": [
-            "ba97e8986832bd94"
-        ],
-        "linkType": "static",
-        "timeout": "30",
-        "x": 1270,
-        "y": 1620,
-        "wires": [
-            [
-                "2890ecfacf195536"
-            ]
-        ]
-    },
-    {
-        "id": "2890ecfacf195536",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "function 559",
-        "func": "let arr = [];\narr.push(msg.payload[0])\n\nif (msg.finallArray) {\n  msg.finallArray.push(msg.payload[0])\n}\nif (!msg.finallArray) {\n   msg.finallArray = arr\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1450,
-        "y": 1620,
-        "wires": [
-            [
-                "ea5bca61eeb834a3"
-            ]
-        ]
-    },
-    {
-        "id": "7663eff83908ef20",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "function 560",
-        "func": "msg.payload = msg.finallArray\n// return msg;\nif (!msg.arrayFromGroups || msg.arrayFromGroups.length === 0) {\n    return [null, msg]\n} else {\n    return [msg, null]\n}",
-        "outputs": 2,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1090,
-        "y": 1520,
-        "wires": [
-            [
-                "b577c38c2d848158"
-            ],
-            [
-                "17cd2670c362944a"
-            ]
-        ]
-    },
-    {
-        "id": "d79eb3371e8247d1",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "function 561",
-        "func": "msg.payload = {\n    data: `No attribute or group provided`\n}\nreturn msg;\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 610,
-        "y": 1660,
-        "wires": [
-            [
-                "d377183710394384"
-            ]
-        ]
-    },
-    {
-        "id": "d377183710394384",
-        "type": "http response",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 770,
-        "y": 1660,
-        "wires": []
-    },
-    {
-        "id": "b577c38c2d848158",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "function 562",
-        "func": "msg.arrayFromGroups = msg.oldPayload.atrributesGroupIds ? JSON.parse(msg.oldPayload.atrributesGroupIds) : ''\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1250,
-        "y": 1480,
-        "wires": [
-            [
-                "76b5ebf7fd91199a"
-            ]
-        ]
-    },
-    {
-        "id": "76b5ebf7fd91199a",
-        "type": "array-loop",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "key": "countSecond",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "arrayFromGroups",
-        "arrayType": "msg",
-        "x": 1460,
-        "y": 1480,
-        "wires": [
-            [
-                "17cd2670c362944a"
-            ],
-            [
-                "36213c897c50b99a"
-            ]
-        ]
-    },
-    {
-        "id": "36213c897c50b99a",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "function 563",
-        "func": "msg.collection = \"attributeGroups\"\nmsg.payload = {\n    _id: objectid(msg.payload),\n    deleted: false\n}\n\nreturn msg;\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [
-            {
-                "var": "objectid",
-                "module": "objectid"
-            }
-        ],
-        "x": 1670,
-        "y": 1520,
-        "wires": [
-            [
-                "1b56b4d08f483f3c"
-            ]
-        ]
-    },
-    {
-        "id": "09fecb8fe5eb9f01",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "function 564",
-        "func": "msg.secondArray = msg.payload[0].attributes\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2030,
-        "y": 1520,
-        "wires": [
-            [
-                "86b3b631921ead8c"
-            ]
-        ]
-    },
-    {
-        "id": "eb6c6c3f8b4d6f77",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "function 565",
-        "func": "msg.collection = \"attributes\"\nmsg.payload = {\n    _id: objectid(msg.payload.attributeId),\n    deleted: false\n}\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [
-            {
-                "var": "objectid",
-                "module": "objectid"
-            }
-        ],
-        "x": 2050,
-        "y": 1620,
-        "wires": [
-            [
-                "1a0ba1f9a36fbf0a"
-            ]
-        ]
-    },
-    {
-        "id": "1a0ba1f9a36fbf0a",
-        "type": "link call",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "links": [
-            "ba97e8986832bd94"
-        ],
-        "linkType": "static",
-        "timeout": "30",
-        "x": 2230,
-        "y": 1620,
-        "wires": [
-            [
-                "b7cdfc388970b57f"
-            ]
-        ]
-    },
-    {
-        "id": "b7cdfc388970b57f",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "function 566",
-        "func": "let arr = [];\narr.push(msg.payload[0])\n\nif (msg.finallArrayFromGroups) {\n  msg.finallArrayFromGroups.push(msg.payload[0])\n}\nif (!msg.finallArrayFromGroups) {\n   msg.finallArrayFromGroups = arr\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 2410,
-        "y": 1620,
-        "wires": [
-            [
-                "86b3b631921ead8c"
-            ]
-        ]
-    },
-    {
-        "id": "86b3b631921ead8c",
-        "type": "array-loop",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "key": "thirdCount",
-        "keyType": "msg",
-        "reset": false,
-        "resetValue": "value-null",
-        "array": "secondArray",
-        "arrayType": "msg",
-        "x": 2250,
-        "y": 1520,
-        "wires": [
-            [
-                "76b5ebf7fd91199a"
-            ],
-            [
-                "eb6c6c3f8b4d6f77"
-            ]
-        ]
-    },
-    {
-        "id": "17cd2670c362944a",
-        "type": "function",
-        "z": "ffd8bc62df2cb641",
-        "name": "function 567",
-        "func": "const result = []\nif (!msg.finallArrayFromGroups && msg.finallArray.length > 0) {\n    result.push(...msg.finallArray)\n}\nif (!msg.finallArray && msg.finallArrayFromGroups.length > 0) {\n    result.push(...msg.finallArrayFromGroups)\n}\nif (msg.finallArrayFromGroups && msg.finallArray && msg.finallArrayFromGroups.length > 0 && msg.finallArray.length > 0) {\nconst combinedArray = [...msg.finallArrayFromGroups, ...msg.finallArray];\n    node.warn(combinedArray);\n\n// Вибрати тільки унікальні елементи за полем _id\nconst uniqueArray = combinedArray.filter((task, index, self) =>\n   \n    index === self.findIndex(t => t._id.toString() === task._id.toString())\n\n);\n\n\n    node.warn(uniqueArray);\n    result.push(...uniqueArray)\n}\n\n\nmsg.payload = result\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [
-            {
-                "var": "objectid",
-                "module": "objectid"
-            }
-        ],
-        "x": 1670,
-        "y": 1440,
-        "wires": [
-            [
-                "8727d0231bd71cec"
-            ]
-        ]
-    },
-    {
-        "id": "8727d0231bd71cec",
-        "type": "http response",
-        "z": "ffd8bc62df2cb641",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 1830,
-        "y": 1440,
-        "wires": []
     },
     {
         "id": "51e58d3e86a09b8f",
         "type": "http response",
         "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
         "name": "",
         "statusCode": "403",
         "headers": {},
-        "x": 500,
+        "x": 600,
         "y": 220,
         "wires": []
     },
@@ -9611,21 +8781,23 @@
         "id": "3dc3275731c4f2cc",
         "type": "http response",
         "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
         "name": "",
         "statusCode": "403",
         "headers": {},
-        "x": 500,
-        "y": 640,
+        "x": 620,
+        "y": 820,
         "wires": []
     },
     {
         "id": "924039855a2a0ac2",
         "type": "http response",
         "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
         "name": "",
         "statusCode": "403",
         "headers": {},
-        "x": 520,
+        "x": 600,
         "y": 380,
         "wires": []
     },
@@ -9633,12 +8805,202 @@
         "id": "3263581c45cef8d0",
         "type": "http response",
         "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
         "name": "",
         "statusCode": "403",
         "headers": {},
-        "x": 540,
-        "y": 1320,
+        "x": 620,
+        "y": 1060,
         "wires": []
+    },
+    {
+        "id": "8113f611eac092ac",
+        "type": "http in",
+        "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
+        "name": "",
+        "url": "/getSelectedAttributeGroups",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 200,
+        "y": 700,
+        "wires": [
+            [
+                "254f9956e7cacf05"
+            ]
+        ]
+    },
+    {
+        "id": "254f9956e7cacf05",
+        "type": "function",
+        "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
+        "name": "function 584",
+        "func": "msg.userAttributes = msg.payload.userAttributes;\n\nmsg.collection = \"attributeGroups\"\nmsg.payload = {\n    deleted: false\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 700,
+        "wires": [
+            [
+                "7f78350112c6b1d9"
+            ]
+        ]
+    },
+    {
+        "id": "7f78350112c6b1d9",
+        "type": "link call",
+        "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
+        "name": "find",
+        "links": [
+            "ba97e8986832bd94"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 610,
+        "y": 700,
+        "wires": [
+            [
+                "2d32ffcf75d44831"
+            ]
+        ]
+    },
+    {
+        "id": "1fd6abc76c828d3d",
+        "type": "http response",
+        "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 950,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "2d32ffcf75d44831",
+        "type": "function",
+        "z": "ffd8bc62df2cb641",
+        "g": "0dd2dfd7df691836",
+        "name": "function 585",
+        "func": "\nconst groups = msg.payload;\nconst userAttributes = msg.userAttributes;\n\nconst allIds = userAttributes.map(attr => String(attr.attributeId)); \nconst groupObjects = []; \n\ngroups.forEach(group => {\n    const targetIds = group.attributes.map(attr => String(attr.attributeId));\n    const allGroupAttributesPresent = targetIds.every(id => allIds.includes(id));\n\n    if (allGroupAttributesPresent) {\n       \n        const groupObject = {\n            label: group.name,\n            value: group._id\n        };\n       \n        groupObjects.push(groupObject);\n    }\n});\n\nmsg.payload = groupObjects; \nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 700,
+        "wires": [
+            [
+                "1fd6abc76c828d3d"
+            ]
+        ]
+    },
+    {
+        "id": "96ef3d0bf7cd2325",
+        "type": "function",
+        "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
+        "name": "function 586",
+        "func": "msg.userData = msg.payload;\n\nmsg.collection = \"attributeGroups\"\nconst groupsIdArray = JSON.parse(msg.userData.atrributesGroupIds)\nnode.warn(groupsIdArray);\n\nconst objectIdArray = groupsIdArray.map(id => new objectid(id));\n\n\nmsg.payload = {\n    _id: { $in: objectIdArray },\n    deleted: false\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 430,
+        "y": 440,
+        "wires": [
+            [
+                "70facfcdd18e07ba"
+            ]
+        ]
+    },
+    {
+        "id": "70facfcdd18e07ba",
+        "type": "link call",
+        "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
+        "name": "find",
+        "links": [
+            "ba97e8986832bd94"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 590,
+        "y": 440,
+        "wires": [
+            [
+                "532e85bf2e98ec24"
+            ]
+        ]
+    },
+    {
+        "id": "532e85bf2e98ec24",
+        "type": "function",
+        "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
+        "name": "function 587",
+        "func": "msg.collection = \"attributes\";\nconst groupsId = JSON.parse(msg.userData.attributeIds);\nlet result = [];\n\nif (msg.payload.length !== 0) {\n    msg.payload.forEach(group => {\n        group.attributes.forEach(attribute => {\n            const attributeIdAsString = attribute.attributeId.toString(); // Перетворення у рядок\n            if (!groupsId.includes(attributeIdAsString)) {\n                groupsId.push(attributeIdAsString);\n            }\n        });\n    });\n    result = [...new Set(groupsId)];\n} else {\n    result = groupsId;\n}\n\nconst uniqueArray = result.map(id => new objectid(id));\n\n\nmsg.payload = {\n    _id: { $in: uniqueArray },\n    deleted: false\n};\n\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "objectid",
+                "module": "objectid"
+            }
+        ],
+        "x": 770,
+        "y": 440,
+        "wires": [
+            [
+                "85a06fd90c436dd9"
+            ]
+        ]
+    },
+    {
+        "id": "70950a68ae412de5",
+        "type": "http response",
+        "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1090,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "85a06fd90c436dd9",
+        "type": "link call",
+        "z": "ffd8bc62df2cb641",
+        "g": "8017305e1b09baac",
+        "name": "find",
+        "links": [
+            "ba97e8986832bd94"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 930,
+        "y": 440,
+        "wires": [
+            [
+                "70950a68ae412de5"
+            ]
+        ]
     },
     {
         "id": "f83722cf037b1224",
@@ -9854,7 +9216,7 @@
         "type": "debug",
         "z": "ca956876b5c40358",
         "name": "debug 472",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -10128,8 +9490,7 @@
         "y": 560,
         "wires": [
             [
-                "2947b0da37b1b5bf",
-                "8d155617fff585a1"
+                "2947b0da37b1b5bf"
             ]
         ]
     },
@@ -10230,9 +9591,7 @@
         "x": 890,
         "y": 680,
         "wires": [
-            [
-                "da250b70c9747d2f"
-            ]
+            []
         ]
     },
     {
@@ -10252,39 +9611,5 @@
                 "f3f0cea32f89e7ca"
             ]
         ]
-    },
-    {
-        "id": "8d155617fff585a1",
-        "type": "debug",
-        "z": "ca956876b5c40358",
-        "name": "debug 490",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1050,
-        "y": 600,
-        "wires": []
-    },
-    {
-        "id": "da250b70c9747d2f",
-        "type": "debug",
-        "z": "ca956876b5c40358",
-        "name": "debug 491",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1130,
-        "y": 680,
-        "wires": []
     }
 ]
