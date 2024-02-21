@@ -2,6 +2,5 @@
     "ab6475898c71d570": {
         "user": "${mongoUserName}",
         "password": "${mongoPassword}"
-    },
-    "a8c73a02ead9c281": {}
+    }
 }
