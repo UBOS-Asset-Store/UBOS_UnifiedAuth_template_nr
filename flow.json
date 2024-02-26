@@ -104,7 +104,9 @@
             "a2b1bc579a4c0ced"
         ],
         "x": 14,
-        "y": 719
+        "y": 719,
+        "w": 932,
+        "h": 122
     },
     {
         "id": "398457a4bc6d8725",
@@ -164,7 +166,9 @@
             "c13baca0a8f18f1a"
         ],
         "x": 14,
-        "y": 1319
+        "y": 1319,
+        "w": 3312,
+        "h": 462
     },
     {
         "id": "b0ef14992c694846",
@@ -208,7 +212,9 @@
             "10c41f549cf86656"
         ],
         "x": 54,
-        "y": 459
+        "y": 459,
+        "w": 832,
+        "h": 182
     },
     {
         "id": "d78377c07a215120",
@@ -270,52 +276,9 @@
             "f3fae0dbf2c5f9ec"
         ],
         "x": 14,
-        "y": 39
-    },
-    {
-        "id": "8017305e1b09baac",
-        "type": "group",
-        "z": "ffd8bc62df2cb641",
-        "name": "Attributes",
-        "style": {
-            "fill": "#bfdbef",
-            "label": true
-        },
-        "nodes": [
-            "967b38b536709fe7",
-            "11990fd0e53a6fba",
-            "bc62308fe59a8de8",
-            "1d8898a2f227d8a0",
-            "18107938eda1b521",
-            "c9b84712515e3dd6",
-            "f3a9ec493a3788a1",
-            "41082da2d42a752f",
-            "9dd8dd2c0c576b82",
-            "0d03bbc99874bf74",
-            "6b07fb9e75bbc6e5",
-            "e130804ebf1ff0c1",
-            "be9cb6eb76e34774",
-            "27120df009d576cc",
-            "8f3063bfe73244df",
-            "1adb2506e05b4f4c",
-            "be75b957f9ce2ca9",
-            "283b1955ab0b86ee",
-            "c4b676987c9327e2",
-            "ec2d2701a0352fb3",
-            "cf4e325526af01ec",
-            "4f1e78e341e1d8e1",
-            "f89bf2fa98334f94",
-            "153e790f04d68a9a",
-            "51e58d3e86a09b8f",
-            "924039855a2a0ac2",
-            "96ef3d0bf7cd2325",
-            "70facfcdd18e07ba",
-            "532e85bf2e98ec24",
-            "70950a68ae412de5",
-            "85a06fd90c436dd9"
-        ],
-        "x": 34,
-        "y": 79
+        "y": 39,
+        "w": 1792,
+        "h": 642
     },
     {
         "id": "0dd2dfd7df691836",
@@ -360,7 +323,9 @@
             "2d32ffcf75d44831"
         ],
         "x": 34,
-        "y": 519
+        "y": 519,
+        "w": 1352,
+        "h": 562
     },
     {
         "id": "b2cb8a397b61947a",
@@ -426,7 +391,9 @@
             "2f67916e0bc7be15"
         ],
         "x": 14,
-        "y": 879
+        "y": 879,
+        "w": 1372,
+        "h": 402
     },
     {
         "id": "fd9bc368cea45c71",
@@ -521,7 +488,9 @@
             "1e2c8c7cdacb7345"
         ],
         "x": 44,
-        "y": 39
+        "y": 39,
+        "w": 942,
+        "h": 762
     },
     {
         "id": "c8e4ab113b6b9056",
@@ -564,7 +533,61 @@
             "655fc308a4013906"
         ],
         "x": 1034,
-        "y": 39
+        "y": 39,
+        "w": 692,
+        "h": 682
+    },
+    {
+        "id": "221ba791b89fb1e4",
+        "type": "group",
+        "z": "ffd8bc62df2cb641",
+        "name": "Attributes",
+        "style": {
+            "fill": "#bfdbef",
+            "label": true
+        },
+        "nodes": [
+            "967b38b536709fe7",
+            "11990fd0e53a6fba",
+            "bc62308fe59a8de8",
+            "1d8898a2f227d8a0",
+            "18107938eda1b521",
+            "c9b84712515e3dd6",
+            "f3a9ec493a3788a1",
+            "41082da2d42a752f",
+            "9dd8dd2c0c576b82",
+            "0d03bbc99874bf74",
+            "6b07fb9e75bbc6e5",
+            "e130804ebf1ff0c1",
+            "be9cb6eb76e34774",
+            "27120df009d576cc",
+            "8f3063bfe73244df",
+            "1adb2506e05b4f4c",
+            "be75b957f9ce2ca9",
+            "283b1955ab0b86ee",
+            "c4b676987c9327e2",
+            "ec2d2701a0352fb3",
+            "cf4e325526af01ec",
+            "4f1e78e341e1d8e1",
+            "f89bf2fa98334f94",
+            "153e790f04d68a9a",
+            "51e58d3e86a09b8f",
+            "924039855a2a0ac2",
+            "96ef3d0bf7cd2325",
+            "70facfcdd18e07ba",
+            "532e85bf2e98ec24",
+            "70950a68ae412de5",
+            "85a06fd90c436dd9",
+            "b86c5fd60712158e",
+            "3a277c71d1b79d2e",
+            "a12c87da405c6c7a",
+            "59d17413ae9cbaeb",
+            "6c2b81d3f58aa157"
+        ],
+        "x": 34,
+        "y": 19,
+        "w": 1472,
+        "h": 482
     },
     {
         "id": "ab6475898c71d570",
@@ -2568,7 +2591,7 @@
         "z": "c8b39bad946d8ab6",
         "g": "d78377c07a215120",
         "name": "",
-        "func": "const { google } = googleapis;\n// const clientId = '595459114748-mubn4uvc9sc7mnbprnhpoe7auqsqiq2c';\n// const clientSecret = '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';\n// const redirectUri = 'https://authui-8247-650e926d920d771100000117.ubos.tech/Home';\n\nconst clientId = global.get('credential').clientId;\nconst clientSecret = global.get('credential').clientSecret;\nconst redirectUri = global.get('credential').redirectUri;\nnode.warn(clientId);\nconst oauth2Client = new google.auth.OAuth2(clientId, clientSecret, redirectUri);\nlet code = msg.req.query.code;\n\noauth2Client.getToken(code, (err, tokens) => {\n    if (err) {\n        msg.payload = { error: err };\n        node.send(msg);\n    } else {\n        oauth2Client.setCredentials(tokens);\n        const peopleApi = google.people({ version: 'v1', auth: oauth2Client });\n        peopleApi.people.get({\n            resourceName: 'people/me',\n            personFields: 'emailAddresses,names,photos',\n        }, (err, res) => {\n            if (err) {\n               \n                msg.payload = { error: 'Failed to get user information' };\n            } else {\n                msg.payload = res.data;\n            }\n            node.send(msg);\n        });\n    }\n});",
+        "func": "const { google } = googleapis;\n// const clientId = '595459114748-mubn4uvc9sc7mnbprnhpoe7auqsqiq2c';\n// const clientSecret = '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';\n// const redirectUri = 'https://authui-8247-650e926d920d771100000117.ubos.tech/Home';\n\nconst clientId = global.get('credential').clientId;\nconst clientSecret = global.get('credential').clientSecret;\nconst redirectUri = global.get('credential').redirectUri;\n// node.warn(clientId);\nconst oauth2Client = new google.auth.OAuth2(clientId, clientSecret, redirectUri);\nlet code = msg.req.query.code;\n\noauth2Client.getToken(code, (err, tokens) => {\n    if (err) {\n        msg.payload = { error: err };\n        node.send(msg);\n    } else {\n        oauth2Client.setCredentials(tokens);\n        const peopleApi = google.people({ version: 'v1', auth: oauth2Client });\n        peopleApi.people.get({\n            resourceName: 'people/me',\n            personFields: 'emailAddresses,names,photos',\n        }, (err, res) => {\n            if (err) {\n               \n                msg.payload = { error: 'Failed to get user information' };\n            } else {\n                msg.payload = res.data;\n            }\n            node.send(msg);\n        });\n    }\n});",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -2753,7 +2776,7 @@
         "z": "c8b39bad946d8ab6",
         "g": "d78377c07a215120",
         "name": "jwt token",
-        "func": "node.warn(msg.payload[0]._id)\nconst token = jwt.sign(\n    { user_id: msg.payload[0]._id, email: msg.payload[0].email },\n    \"test\",\n    {\n        expiresIn: '24h',  \n    }\n);\n\nmsg.cookies = {};\nmsg.cookies[\"user_token\"] = token;\nmsg.payload = token;\nreturn msg;\n",
+        "func": "// node.warn(msg.payload[0]._id)\nconst token = jwt.sign(\n    { user_id: msg.payload[0]._id, email: msg.payload[0].email },\n    \"test\",\n    {\n        expiresIn: '24h',  \n    }\n);\n\nmsg.cookies = {};\nmsg.cookies[\"user_token\"] = token;\nmsg.payload = token;\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -5068,7 +5091,7 @@
         "z": "be827c2e9f2e7979",
         "g": "fd9bc368cea45c71",
         "name": "get users query",
-        "func": "msg.collection = \"admins\";\n\nmsg.payload = [\n  {\n    $match: {\n      deleted: false\n    }\n  },\n  {\n    $lookup: {\n      \"from\": \"admin_roles\",\n      \"localField\": \"roles\",\n      \"foreignField\": \"_id\",\n      \"as\": \"role_items\"\n    }\n  },\n  {\n    $addFields: {\n      role: {\n        $arrayElemAt: [\"$role_items.name\", 0]\n      }\n    }\n  },  \n  {\n    $project: {\n      deleted: 0,\n      avatarColor: 0,\n      password: 0,\n      verifyToken: 0,\n      resetPassToken: 0,\n      resetPassExpireToken: 0\n    }\n  }\n];\n\n\nreturn msg;",
+        "func": "msg.collection = \"admins\";\n\nmsg.payload = [\n  {\n    $match: {\n      deleted: false\n    }\n  },\n  {\n    $lookup: {\n      \"from\": \"admin_roles\",\n      \"localField\": \"roles\",\n      \"foreignField\": \"_id\",\n      \"as\": \"role_items\"\n    }\n  },\n  {\n    $addFields: {\n      role: {\n        $arrayElemAt: [\"$role_items.name\", 0]\n      }\n    }\n  },  \n  {\n    $project: {\n      deleted: 0,\n      avatarColor: 0,\n      password: 0,\n      verifyToken: 0,\n      resetPassToken: 0,\n      resetPassExpireToken: 0\n    }\n  }\n];\n\n\nreturn msg;\n\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -5139,7 +5162,7 @@
         "id": "967b38b536709fe7",
         "type": "function",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "",
         "func": "\nif (msg.payload.userAttributes.some(e => e.attributeName === \"create attribute\")) {\n    msg.collection = \"attributes\";\n\n    msg.payload = {\n        _id: objectid(),\n        attributeName: msg.payload.name,\n        parentGroupId: msg.payload.parentGroupId,\n        deleted: false,\n        createdAt: global.get(\"convert_date\")\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
         "outputs": 2,
@@ -5153,7 +5176,7 @@
             }
         ],
         "x": 420,
-        "y": 200,
+        "y": 140,
         "wires": [
             [
                 "c9b84712515e3dd6"
@@ -5167,14 +5190,14 @@
         "id": "11990fd0e53a6fba",
         "type": "http in",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "",
         "url": "/createAttribute",
         "method": "post",
         "upload": false,
         "swaggerDoc": "",
         "x": 160,
-        "y": 200,
+        "y": 140,
         "wires": [
             [
                 "967b38b536709fe7"
@@ -5186,26 +5209,26 @@
         "id": "bc62308fe59a8de8",
         "type": "http response",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "",
         "statusCode": "",
         "headers": {},
         "x": 1090,
-        "y": 180,
+        "y": 120,
         "wires": []
     },
     {
         "id": "1d8898a2f227d8a0",
         "type": "http in",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "",
         "url": "/getAttributes",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
         "x": 150,
-        "y": 120,
+        "y": 60,
         "wires": [
             [
                 "f3a9ec493a3788a1"
@@ -5216,19 +5239,19 @@
         "id": "18107938eda1b521",
         "type": "http response",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "",
         "statusCode": "",
         "headers": {},
         "x": 750,
-        "y": 120,
+        "y": 60,
         "wires": []
     },
     {
         "id": "c9b84712515e3dd6",
         "type": "link call",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "insert",
         "links": [
             "193774ea3ceea673"
@@ -5236,7 +5259,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 590,
-        "y": 180,
+        "y": 120,
         "wires": [
             [
                 "9dd8dd2c0c576b82"
@@ -5247,7 +5270,7 @@
         "id": "f3a9ec493a3788a1",
         "type": "function",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "",
         "func": "msg.collection =\"attributes\"\n\nmsg.payload = [\n    {\n        $match: {\n            deleted: false\n        }\n    },\n    {\n        $lookup: {\n            \"from\": \"attributeGroups\",\n            \"let\": { parentGroupId: { $toObjectId: \"$parentGroupId\" } },\n            \"pipeline\": [\n                { $match: { $expr: { $eq: [\"$_id\", \"$$parentGroupId\"] } } }\n            ],\n            \"as\": \"parentGroup\"\n        }\n    },   \n    {\n        $unwind: \"$parentGroup\" // Розгортаємо масив parentGroup\n    },\n    {\n        $project: {\n            _id: 1,\n            attributeName: 1,\n            parentGroupId: 1,\n            deleted: 1,\n            createdAt: 1,       \n            parentGroupName: \"$parentGroup.name\", // Зберігаємо лише поле name з parentGroup\n        }\n    }\n]\nreturn msg;",
         "outputs": 1,
@@ -5256,7 +5279,7 @@
         "finalize": "",
         "libs": [],
         "x": 420,
-        "y": 120,
+        "y": 60,
         "wires": [
             [
                 "41082da2d42a752f"
@@ -5267,7 +5290,7 @@
         "id": "41082da2d42a752f",
         "type": "link call",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "aggregate",
         "links": [
             "103fddb829bcd575"
@@ -5275,7 +5298,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 590,
-        "y": 120,
+        "y": 60,
         "wires": [
             [
                 "18107938eda1b521"
@@ -5517,7 +5540,7 @@
         "id": "9dd8dd2c0c576b82",
         "type": "function",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "function 536",
         "func": "msg.collection = 'attributeGroups'\nmsg.query = {\n    _id: objectid(msg.payload.parentGroupId)\n}\nmsg.payload = {\n    $push: {\n        \"attributes\": {attributeId: msg.payload._id}\n    },\n    $set: {\n        \"updatedAt\": global.get(\"convert_date\")\n    }\n\n}\nreturn msg;",
         "outputs": 1,
@@ -5531,7 +5554,7 @@
             }
         ],
         "x": 770,
-        "y": 180,
+        "y": 120,
         "wires": [
             [
                 "0d03bbc99874bf74"
@@ -5542,7 +5565,7 @@
         "id": "0d03bbc99874bf74",
         "type": "link call",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "update",
         "links": [
             "a724f172bc7c2de5"
@@ -5550,7 +5573,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 940,
-        "y": 180,
+        "y": 120,
         "wires": [
             [
                 "bc62308fe59a8de8"
@@ -5561,14 +5584,14 @@
         "id": "6b07fb9e75bbc6e5",
         "type": "http in",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "",
         "url": "/getAttributesForSelect",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
         "x": 180,
-        "y": 280,
+        "y": 220,
         "wires": [
             [
                 "be9cb6eb76e34774"
@@ -5579,19 +5602,19 @@
         "id": "e130804ebf1ff0c1",
         "type": "http response",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "",
         "statusCode": "",
         "headers": {},
         "x": 930,
-        "y": 280,
+        "y": 220,
         "wires": []
     },
     {
         "id": "be9cb6eb76e34774",
         "type": "function",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "",
         "func": "msg.collection =\"attributes\"\nmsg.payload={\n    deleted: false\n}\nreturn msg;",
         "outputs": 1,
@@ -5600,7 +5623,7 @@
         "finalize": "",
         "libs": [],
         "x": 420,
-        "y": 280,
+        "y": 220,
         "wires": [
             [
                 "27120df009d576cc"
@@ -5611,7 +5634,7 @@
         "id": "27120df009d576cc",
         "type": "link call",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "find",
         "links": [
             "ba97e8986832bd94"
@@ -5619,7 +5642,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 590,
-        "y": 280,
+        "y": 220,
         "wires": [
             [
                 "8f3063bfe73244df"
@@ -5630,7 +5653,7 @@
         "id": "8f3063bfe73244df",
         "type": "function",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "function 537",
         "func": "const array = []\nconst oldArray = msg.payload\noldArray.map(e => {\n    const changedEl = {\n        \"label\": e.attributeName,\n        \"value\": e._id\n    }\n    array.push(changedEl)\n})\n\nmsg.payload = {\n    array\n}\nreturn msg;",
         "outputs": 1,
@@ -5639,7 +5662,7 @@
         "finalize": "",
         "libs": [],
         "x": 770,
-        "y": 280,
+        "y": 220,
         "wires": [
             [
                 "e130804ebf1ff0c1"
@@ -5650,14 +5673,14 @@
         "id": "1adb2506e05b4f4c",
         "type": "http in",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "",
         "url": "/deleteAttribute",
         "method": "put",
         "upload": false,
         "swaggerDoc": "",
         "x": 150,
-        "y": 360,
+        "y": 300,
         "wires": [
             [
                 "4f1e78e341e1d8e1"
@@ -5668,19 +5691,19 @@
         "id": "be75b957f9ce2ca9",
         "type": "http response",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "",
         "statusCode": "",
         "headers": {},
         "x": 1430,
-        "y": 340,
+        "y": 280,
         "wires": []
     },
     {
         "id": "283b1955ab0b86ee",
         "type": "function",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "",
         "func": "msg.collection =\"attributes\"\nmsg.attributeData = msg.payload\nmsg.query = {\n    _id: objectid(msg.attributeId)\n}\nmsg.payload = {\n    $set: {\n    deleted: true\n    }\n}\nreturn msg;\n",
         "outputs": 1,
@@ -5694,7 +5717,7 @@
             }
         ],
         "x": 760,
-        "y": 340,
+        "y": 280,
         "wires": [
             [
                 "c4b676987c9327e2"
@@ -5705,7 +5728,7 @@
         "id": "c4b676987c9327e2",
         "type": "link call",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "update",
         "links": [
             "a724f172bc7c2de5"
@@ -5713,7 +5736,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 940,
-        "y": 340,
+        "y": 280,
         "wires": [
             [
                 "ec2d2701a0352fb3"
@@ -5724,7 +5747,7 @@
         "id": "ec2d2701a0352fb3",
         "type": "function",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "function 545",
         "func": "msg.collection = \"attributeGroups\";\n\nlet _id = msg.attributeData[0].parentGroupId;\nlet attributeIdToUpdate = msg.attributeId;\n\n\n\n\nmsg.query = { _id: objectid(_id) };\nmsg.payload = {\n    $pull: {\n        \"attributes\": {\n            \"attributeId\": objectid(attributeIdToUpdate)\n        }\n    }\n};\nreturn msg;\n",
         "outputs": 1,
@@ -5738,7 +5761,7 @@
             }
         ],
         "x": 1110,
-        "y": 340,
+        "y": 280,
         "wires": [
             [
                 "cf4e325526af01ec"
@@ -5749,7 +5772,7 @@
         "id": "cf4e325526af01ec",
         "type": "link call",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "update",
         "links": [
             "a724f172bc7c2de5"
@@ -5757,7 +5780,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 1280,
-        "y": 340,
+        "y": 280,
         "wires": [
             [
                 "be75b957f9ce2ca9"
@@ -5768,7 +5791,7 @@
         "id": "4f1e78e341e1d8e1",
         "type": "function",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "function 546",
         "func": "\nif (msg.payload.userAttributes.some(e => e.attributeName === \"delete attribute\")) {\n    msg.attributeId = msg.payload.attributeId\n    msg.collection = \"attributes\"\n\n    msg.payload = {\n        _id: objectid(msg.payload.attributeId)\n    }\n    return [msg, null]\n} else {\n    return [null, msg]\n}",
         "outputs": 2,
@@ -5782,7 +5805,7 @@
             }
         ],
         "x": 430,
-        "y": 360,
+        "y": 300,
         "wires": [
             [
                 "f89bf2fa98334f94"
@@ -5796,7 +5819,7 @@
         "id": "f89bf2fa98334f94",
         "type": "link call",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "find",
         "links": [
             "ba97e8986832bd94"
@@ -5804,7 +5827,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 590,
-        "y": 340,
+        "y": 280,
         "wires": [
             [
                 "283b1955ab0b86ee"
@@ -6031,14 +6054,14 @@
         "id": "153e790f04d68a9a",
         "type": "http in",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "",
         "url": "/getUniqueAttributes",
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
         "x": 170,
-        "y": 440,
+        "y": 380,
         "wires": [
             [
                 "96ef3d0bf7cd2325"
@@ -6049,12 +6072,12 @@
         "id": "51e58d3e86a09b8f",
         "type": "http response",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "",
         "statusCode": "403",
         "headers": {},
         "x": 600,
-        "y": 220,
+        "y": 160,
         "wires": []
     },
     {
@@ -6073,12 +6096,12 @@
         "id": "924039855a2a0ac2",
         "type": "http response",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "",
         "statusCode": "403",
         "headers": {},
         "x": 600,
-        "y": 380,
+        "y": 320,
         "wires": []
     },
     {
@@ -6168,7 +6191,7 @@
         "z": "ffd8bc62df2cb641",
         "g": "0dd2dfd7df691836",
         "name": "function 585",
-        "func": "\nconst groups = msg.payload;\nconst userAttributes = msg.userAttributes;\n\nconst allIds = userAttributes.map(attr => String(attr.attributeId)); \nconst groupObjects = []; \n\ngroups.forEach(group => {\n    const targetIds = group.attributes.map(attr => String(attr.attributeId));\n    const allGroupAttributesPresent = targetIds.every(id => allIds.includes(id));\n\n    if (allGroupAttributesPresent) {\n       \n        const groupObject = {\n            label: group.name,\n            value: group._id\n        };\n       \n        groupObjects.push(groupObject);\n    }\n});\n\nmsg.payload = groupObjects; \nreturn msg;\n",
+        "func": "\nconst groups = msg.payload;\nconst userAttributes = msg.userAttributes;\n\nconst allIds = userAttributes.map(attr => String(attr.attributeId));\nconst groupObjects = [];\n\ngroups.forEach(group => {\n    // Якщо група не має атрибутів, пропускаємо її\n    if (group.attributes.length === 0) {\n        return; \n    }\n\n    const targetIds = group.attributes.map(attr => String(attr.attributeId));\n    const allGroupAttributesPresent = targetIds.every(id => allIds.includes(id));\n\n    if (allGroupAttributesPresent) {\n        const groupObject = {\n            label: group.name,\n            value: group._id\n        };\n\n        groupObjects.push(groupObject);\n    }\n});\n\nmsg.payload = groupObjects;\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -6186,7 +6209,7 @@
         "id": "96ef3d0bf7cd2325",
         "type": "function",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "function 586",
         "func": "msg.userData = msg.payload;\n\nmsg.collection = \"attributeGroups\"\nconst groupsIdArray = JSON.parse(msg.userData.atrributesGroupIds)\n\n\nconst objectIdArray = groupsIdArray.map(id => new objectid(id));\n\n\nmsg.payload = {\n    _id: { $in: objectIdArray },\n    deleted: false\n};\nreturn msg;",
         "outputs": 1,
@@ -6200,7 +6223,7 @@
             }
         ],
         "x": 430,
-        "y": 440,
+        "y": 380,
         "wires": [
             [
                 "70facfcdd18e07ba"
@@ -6211,7 +6234,7 @@
         "id": "70facfcdd18e07ba",
         "type": "link call",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "find",
         "links": [
             "ba97e8986832bd94"
@@ -6219,7 +6242,7 @@
         "linkType": "static",
         "timeout": "30",
         "x": 590,
-        "y": 440,
+        "y": 380,
         "wires": [
             [
                 "532e85bf2e98ec24"
@@ -6230,7 +6253,7 @@
         "id": "532e85bf2e98ec24",
         "type": "function",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "function 587",
         "func": "msg.collection = \"attributes\";\nconst groupsId = JSON.parse(msg.userData.attributeIds);\nlet result = [];\n\nif (msg.payload.length !== 0) {\n    msg.payload.forEach(group => {\n        group.attributes.forEach(attribute => {\n            const attributeIdAsString = attribute.attributeId.toString(); // Перетворення у рядок\n            if (!groupsId.includes(attributeIdAsString)) {\n                groupsId.push(attributeIdAsString);\n            }\n        });\n    });\n    result = [...new Set(groupsId)];\n} else {\n    result = groupsId;\n}\n\nconst uniqueArray = result.map(id => new objectid(id));\n\n\nmsg.payload = {\n    _id: { $in: uniqueArray },\n    deleted: false\n};\n\n\nreturn msg;\n",
         "outputs": 1,
@@ -6244,7 +6267,7 @@
             }
         ],
         "x": 770,
-        "y": 440,
+        "y": 380,
         "wires": [
             [
                 "85a06fd90c436dd9"
@@ -6255,19 +6278,19 @@
         "id": "70950a68ae412de5",
         "type": "http response",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "",
         "statusCode": "",
         "headers": {},
         "x": 1090,
-        "y": 440,
+        "y": 380,
         "wires": []
     },
     {
         "id": "85a06fd90c436dd9",
         "type": "link call",
         "z": "ffd8bc62df2cb641",
-        "g": "8017305e1b09baac",
+        "g": "221ba791b89fb1e4",
         "name": "find",
         "links": [
             "ba97e8986832bd94"
@@ -6275,10 +6298,99 @@
         "linkType": "static",
         "timeout": "30",
         "x": 930,
-        "y": 440,
+        "y": 380,
         "wires": [
             [
                 "70950a68ae412de5"
+            ]
+        ]
+    },
+    {
+        "id": "b86c5fd60712158e",
+        "type": "http in",
+        "z": "ffd8bc62df2cb641",
+        "g": "221ba791b89fb1e4",
+        "name": "",
+        "url": "/getSelectedAttributes",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 180,
+        "y": 460,
+        "wires": [
+            [
+                "3a277c71d1b79d2e"
+            ]
+        ]
+    },
+    {
+        "id": "3a277c71d1b79d2e",
+        "type": "function",
+        "z": "ffd8bc62df2cb641",
+        "g": "221ba791b89fb1e4",
+        "name": "function 593",
+        "func": "msg.userAttributes = msg.payload.userAttributes;\n\nmsg.collection = \"attributes\"\nmsg.payload = {\n    deleted: false\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 460,
+        "wires": [
+            [
+                "a12c87da405c6c7a"
+            ]
+        ]
+    },
+    {
+        "id": "a12c87da405c6c7a",
+        "type": "link call",
+        "z": "ffd8bc62df2cb641",
+        "g": "221ba791b89fb1e4",
+        "name": "find",
+        "links": [
+            "ba97e8986832bd94"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 590,
+        "y": 460,
+        "wires": [
+            [
+                "6c2b81d3f58aa157"
+            ]
+        ]
+    },
+    {
+        "id": "59d17413ae9cbaeb",
+        "type": "http response",
+        "z": "ffd8bc62df2cb641",
+        "g": "221ba791b89fb1e4",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 930,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "6c2b81d3f58aa157",
+        "type": "function",
+        "z": "ffd8bc62df2cb641",
+        "g": "221ba791b89fb1e4",
+        "name": "function 594",
+        "func": "\nconst attributes = msg.payload;\nconst userAttributes = msg.userAttributes\n\n \nlet matchedAttributes = [];\n\n\nuserAttributes.forEach(userAttr => {\n    const foundAttr = attributes.find(attr => String(attr._id) === String(userAttr.attributeId));\n    if (foundAttr) {\n        matchedAttributes.push(foundAttr); \n    }\n});\n\nmsg.payload = matchedAttributes.map(e => ({\n    \"label\": e.attributeName,\n    \"value\": e._id\n}));\n \nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 460,
+        "wires": [
+            [
+                "59d17413ae9cbaeb"
             ]
         ]
     },
@@ -6476,13 +6588,13 @@
         "id": "885011311d74e3d6",
         "type": "link call",
         "z": "ca956876b5c40358",
-        "name": "",
+        "name": "insert",
         "links": [
             "193774ea3ceea673"
         ],
         "linkType": "static",
         "timeout": "30",
-        "x": 790,
+        "x": 770,
         "y": 80,
         "wires": [
             [
@@ -6542,7 +6654,7 @@
         "type": "function",
         "z": "ca956876b5c40358",
         "name": "function 571",
-        "func": "msg.collection = \"appSettings\";\n\nmsg.payload = [\n     {\n    $match: {\n        deleted: false\n    }\n},   \n    {\n        $project: {\n            authorizationUrl: 1\n        }\n    }\n]\n\nreturn msg;",
+        "func": "msg.collection = \"appSettings\";\n\nmsg.payload = [\n    {\n        $match: {\n            deleted: false\n        }\n    },\n    {\n        $project: {\n            authorizationUrl: 1\n        }\n    },\n    {\n        $sort: {\n            _id: -1\n        }\n    } \n];\nreturn msg",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
