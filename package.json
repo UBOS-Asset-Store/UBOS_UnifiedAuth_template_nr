@@ -4,10 +4,13 @@
     "version": "0.0.1",
     "dependencies": {
         "node-red-node-mongodb": "0.2.5",
-        "nodemailer": "6.9.9",
+        "nodemailer": "6.9.12",
         "node-red-contrib-loop-processing": "0.5.1",
         "node-red-contrib-auth": "0.1.7",
-        "node-red-contrib-bcrypt": "0.1.6"
+        "bcrypt": "5.1.1",
+        "googleapis": "134.0.0",
+        "objectid": "3.2.1",
+        "jsonwebtoken": "9.0.2"
     },
     "node-red": {
         "settings": {
