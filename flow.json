@@ -104,9 +104,7 @@
             "a2b1bc579a4c0ced"
         ],
         "x": 14,
-        "y": 719,
-        "w": 932,
-        "h": 122
+        "y": 719
     },
     {
         "id": "398457a4bc6d8725",
@@ -166,9 +164,7 @@
             "c13baca0a8f18f1a"
         ],
         "x": 14,
-        "y": 1319,
-        "w": 3312,
-        "h": 462
+        "y": 1319
     },
     {
         "id": "b0ef14992c694846",
@@ -182,12 +178,13 @@
         "nodes": [
             "a186ba9dfbca2916",
             "781e82cf462af243",
-            "8f8ca6e8d858b872"
+            "8f8ca6e8d858b872",
+            "1d3227da3c0224e5"
         ],
         "x": 34,
         "y": 19,
         "w": 472,
-        "h": 82
+        "h": 122
     },
     {
         "id": "d78c837be83c52b2",
@@ -272,9 +269,7 @@
             "f3fae0dbf2c5f9ec"
         ],
         "x": 14,
-        "y": 39,
-        "w": 1792,
-        "h": 642
+        "y": 39
     },
     {
         "id": "0dd2dfd7df691836",
@@ -319,9 +314,7 @@
             "2d32ffcf75d44831"
         ],
         "x": 34,
-        "y": 519,
-        "w": 1352,
-        "h": 562
+        "y": 519
     },
     {
         "id": "b2cb8a397b61947a",
@@ -346,8 +339,8 @@
             "4ddc5ea18abc5f6d",
             "76e2571f7ce63c0c"
         ],
-        "x": 24,
-        "y": 119,
+        "x": 34,
+        "y": 159,
         "w": 672,
         "h": 222
     },
@@ -387,9 +380,7 @@
             "2f67916e0bc7be15"
         ],
         "x": 14,
-        "y": 879,
-        "w": 1372,
-        "h": 402
+        "y": 879
     },
     {
         "id": "fd9bc368cea45c71",
@@ -433,9 +424,7 @@
             "15a77f4fd7b2a84d"
         ],
         "x": 34,
-        "y": 39,
-        "w": 1332,
-        "h": 462
+        "y": 39
     },
     {
         "id": "a8bcf74ef7690d27",
@@ -485,9 +474,7 @@
             "1e2c8c7cdacb7345"
         ],
         "x": 44,
-        "y": 39,
-        "w": 942,
-        "h": 762
+        "y": 39
     },
     {
         "id": "c8e4ab113b6b9056",
@@ -530,9 +517,7 @@
             "655fc308a4013906"
         ],
         "x": 1034,
-        "y": 39,
-        "w": 692,
-        "h": 682
+        "y": 39
     },
     {
         "id": "221ba791b89fb1e4",
@@ -582,9 +567,7 @@
             "6c2b81d3f58aa157"
         ],
         "x": 34,
-        "y": 19,
-        "w": 1472,
-        "h": 482
+        "y": 19
     },
     {
         "id": "ab6475898c71d570",
@@ -686,8 +669,8 @@
         "g": "b2cb8a397b61947a",
         "name": "mongo Find",
         "links": [],
-        "x": 65,
-        "y": 200,
+        "x": 75,
+        "y": 240,
         "wires": [
             [
                 "71f3d54994ffdd14"
@@ -701,8 +684,8 @@
         "g": "b2cb8a397b61947a",
         "name": "mongo Aggregate",
         "links": [],
-        "x": 65,
-        "y": 260,
+        "x": 75,
+        "y": 300,
         "wires": [
             [
                 "fce3b8f7a9a47972"
@@ -716,8 +699,8 @@
         "g": "b2cb8a397b61947a",
         "name": "mongo Insert",
         "links": [],
-        "x": 435,
-        "y": 200,
+        "x": 445,
+        "y": 240,
         "wires": [
             [
                 "18a45c661864e948",
@@ -732,8 +715,8 @@
         "g": "b2cb8a397b61947a",
         "name": "mongo Update",
         "links": [],
-        "x": 435,
-        "y": 260,
+        "x": 445,
+        "y": 300,
         "wires": [
             [
                 "5d175f0e185e2be1",
@@ -749,8 +732,8 @@
         "name": "link out 6",
         "mode": "return",
         "links": [],
-        "x": 335,
-        "y": 200,
+        "x": 345,
+        "y": 240,
         "wires": []
     },
     {
@@ -761,8 +744,8 @@
         "name": "link out 7",
         "mode": "return",
         "links": [],
-        "x": 335,
-        "y": 260,
+        "x": 345,
+        "y": 300,
         "wires": []
     },
     {
@@ -773,8 +756,8 @@
         "name": "link out 8",
         "mode": "return",
         "links": [],
-        "x": 575,
-        "y": 160,
+        "x": 585,
+        "y": 200,
         "wires": []
     },
     {
@@ -785,8 +768,8 @@
         "name": "link out 9",
         "mode": "return",
         "links": [],
-        "x": 575,
-        "y": 300,
+        "x": 585,
+        "y": 340,
         "wires": []
     },
     {
@@ -798,8 +781,8 @@
         "name": "Find",
         "collection": "",
         "operation": "find",
-        "x": 200,
-        "y": 200,
+        "x": 210,
+        "y": 240,
         "wires": [
             [
                 "0475ddf79f2a60a0"
@@ -815,8 +798,8 @@
         "name": "Aggregate",
         "collection": "",
         "operation": "aggregate",
-        "x": 220,
-        "y": 260,
+        "x": 230,
+        "y": 300,
         "wires": [
             [
                 "4b446130f2f65783"
@@ -835,8 +818,8 @@
         "upsert": false,
         "multi": false,
         "operation": "insert",
-        "x": 600,
-        "y": 200,
+        "x": 610,
+        "y": 240,
         "wires": []
     },
     {
@@ -851,8 +834,8 @@
         "upsert": false,
         "multi": false,
         "operation": "update",
-        "x": 610,
-        "y": 260,
+        "x": 620,
+        "y": 300,
         "wires": []
     },
     {
@@ -897,7 +880,7 @@
         "fieldType": "msg",
         "format": "css",
         "syntax": "mustache",
-        "template": "\nbody section{\n    background-color: #ffffff!important;\n}\ninput, .rc-select-show-arrow.rc-select-multiple .rc-select-selector, .select-button{\n  border-radius: 4px !important;\n}\n\nlabel {\n  border-radius: 4px !important;\n}\n\nspan > textarea {\n  border-radius: 4px !important;\n}\n.bp3-button .bp3-input-group{\n  border-radius: 8px!important;\n}\n::-webkit-scrollbar {\n  width: 0.1px;\n}\n\n.bp3-overlay{\nz-index: 5 !important;\n}\n\ndiv[id=\"comment-overlay-wrapper-0\"]\n  .bp3-overlay-content.bp3-overlay-appear-done {\n  height: 90vh !important;\n  max-height: 90vh !important;\n  border-radius: 10px !important;\n  box-shadow: 0px 6px 14px -4px rgb(255 255 255 / 88%) !important;\n  \n}\n.sidemenu {\n  background-color: #FFFFFF !important;\n  \n}\n\n.loginForm_wrapper > div > div > div > div > div {\n  border-radius: 30px !important\n}\n.loginForm_wrapper:before,\n.loginForm_wrapper:after {\n  z-index: -1 !important;\n  position: absolute !important;\n  content: \"\" !important;\n  bottom: 18px !important;\n  left: 10px !important;\n  width: 50% !important;\n  top: 80% !important;\n  max-width: 300px !important;\n  background: #777 !important;\n  box-shadow: 0 18px 10px #777 !important;\n  transform: rotate(-3deg) !important;\n  border-radius: 10px !important;\n}\n\n.loginForm_wrapper:after {\n  transform: rotate(3deg) !important;\n  right: 10px !important;\n  left: auto !important;\n}\n\n.loginForm_btnWrapper > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n}\n\n.loginForm_divider {\n  flex-grow: 1 !important;\n}\n\n.addUserModal_select button {\n  height: 40px !important;\n}\n\n.addUserModal_multiSelect div.rc-select-multiple {\n  height: 40px !important;\n}\n\n.accordionBtnWrapper button{\n  border-radius: 5px !important;\n  margin-bottom: 10px !important;\n  border: 1px solid #3366FF !important;    \n} \n\n.tabs {\n  top:0 !important;\n  left: 0 !important; \n  height: 100vh !important;\n  width: 100% !important;\n  padding: 10px !important;\n  background-image: linear-gradient(180deg, #ffffff 25%, #68adeed9 100%) !important;\n  }\n\n.tabs>div>div>div>div>div {\n  background-color: transparent !important;\n}\n\n.tabs>div>div>div>div {\n  box-shadow: none !important;\n}\n\n.center_container{\n  top: 50% !important;\n  left: 50% !important;\n  transform: translate(-50%, -50%) !important;\n}\n.centerUp_container{\n  top: 5% !important;\n  left: 50% !important;\n  transform: translate(-50%, -5%) !important;\n}\n\n.sidebar{\n  position: fixed !important;\n  height: 100vh !important;\n  top: 0 !important;\n  left: 0 !important;\n  padding: 0px !important;\n  width: 160px !important;\n  box-shadow: 9px 0px 4px -6px rgba(199,199,199,0.7) !important;\n  background-image: linear-gradient(180deg, #ffffff 25%, #68adeed9 100%) !important;\n  z-index: 5 !important;\n}\n.logo{\n  width: 160px !important;\n  left:0 !important;\n}\n.header{\n  top: 0 !important;\n  left: 167px !important;\n  padding: 0px !important; \n  /* width: calc(100% - 160px) !important; */\n  height: 60px !important;\n}\n.accordion{\n  padding: 9px !important;\n  width: 100% !important;\n  \n}\n.accordion .bp3-button:not([class*=bp3-intent-]) {\n  box-shadow: none !important;\n  padding: 9px 10px !important;\n  border-radius: 5px !important;\n}\n.accordion .sub_category {\n  padding: 9px !important;\n}\n.accordion .bp3-button.active, .sub_category.active{\n  background-color: #66aff2 !important;\n  border-radius: 5px !important;\n}\n.accordion .bp3-button:hover, .sub_category:hover{\n  box-shadow: inset 0 0 0 2px #66aff2, inset 0 -1px 0 #66aff2 !important;\n  border-radius: 5px !important;\n}\n.accordion .bp3-button::after, .sub_category::after{\n  border: none !important;\n}\n.CUSTOM_ACCORDION_WIDGET{\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n}\n.modules{\n    left: 167px  !important;\n    padding: 0px !important;\n    /* width: calc(100% - 167px) !important; */\n    \n}\n",
+        "template": ":root {\n  --sideBarWidth: 160px;\n  --sideBarGap: 8px;\n\n}\n\n* {\n  box-sizing: border-box !important;\n}\n\nbody section{\n    background-color: #ffffff !important;\n}\ninput, .rc-select-show-arrow.rc-select-multiple .rc-select-selector, .select-button{\n  border-radius: 4px !important;\n}\n\nlabel {\n  border-radius: 4px !important;\n}\n\nspan > textarea {\n  border-radius: 4px !important;\n}\n.bp3-button .bp3-input-group{\n  border-radius: 8px!important;\n}\n::-webkit-scrollbar {\n  width: 0.1px;\n}\n\n.bp3-overlay{\nz-index: 5 !important;\n}\n\ndiv[id=\"comment-overlay-wrapper-0\"]\n  .bp3-overlay-content.bp3-overlay-appear-done {\n  height: 90vh !important;\n  max-height: 90vh !important;\n  border-radius: 10px !important;\n  box-shadow: 0px 6px 14px -4px rgb(255 255 255 / 88%) !important;\n  \n}\n.sidemenu {\n  background-color: #FFFFFF !important;\n}\n\n.loginForm_wrapper > div > div > div > div > div {\n  border-radius: 30px !important\n}\n.loginForm_wrapper:before,\n.loginForm_wrapper:after {\n  z-index: -1 !important;\n  position: absolute !important;\n  content: \"\" !important;\n  bottom: 18px !important;\n  left: 10px !important;\n  width: 50% !important;\n  top: 80% !important;\n  max-width: 300px !important;\n  background: #777 !important;\n  box-shadow: 0 18px 10px #777 !important;\n  transform: rotate(-3deg) !important;\n  border-radius: 10px !important;\n}\n\n.loginForm_wrapper:after {\n  transform: rotate(3deg) !important;\n  right: 10px !important;\n  left: auto !important;\n}\n\n.loginForm_btnWrapper > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n}\n\n.loginForm_divider {\n  flex-grow: 1 !important;\n}\n\n.addUserModal_select button {\n  height: 40px !important;\n}\n\n.addUserModal_multiSelect div.rc-select-multiple {\n  height: 40px !important;\n}\n\n.accordionBtnWrapper button{\n  border-radius: 5px !important;\n  margin-bottom: 10px !important;\n  border: 1px solid #3366FF !important;    \n} \n\n.tabs {\n  top:0 !important;\n  left: 0 !important; \n  height: 100vh !important;\n  width: 100% !important;\n  padding: 10px !important;\n  background-image: linear-gradient(180deg, #ffffff 25%, #68adeed9 100%) !important;\n  }\n\n.tabs>div>div>div>div>div {\n  background-color: transparent !important;\n}\n\n.tabs>div>div>div>div {\n  box-shadow: none !important;\n}\n\n.center_container{\n  top: 50% !important;\n  left: 50% !important;\n  transform: translate(-50%, -50%) !important;\n}\n.centerUp_container{\n  top: 5% !important;\n  left: 50% !important;\n  transform: translate(-50%, -5%) !important;\n}\n\n.sidebar {\n  position: fixed !important;\n  height: 100vh !important;\n  top: 0 !important;\n  left: 0 !important;\n  padding: 0 !important;\n  width: var(--sideBarWidth) !important;\n  box-shadow: 9px 0px 4px -6px rgba(199,199,199,0.7) !important;\n  \n  background-image: linear-gradient(180deg, #ffffff 25%, #68adeed9 100%) !important;\n  z-index: 5 !important;\n}\n\n.sidebar>div>div>div>div>div>div>div>div>div>div>div>div>div div {\n  left: 0 !important;\n}\n\n.logo{\n  width: 100% !important;\n  left:0 !important;\n}\n.header{\n  top: 0 !important;\n  left: var(--sideBarWidth) !important;\n  padding: 0px !important; \n  width: calc(100% - var(--sideBarWidth) - var(--sideBarGap)) !important;\n  height: 60px !important;\n}\n.accordion{\n  padding: 9px !important;\n  width: 100% !important;\n  \n}\n.accordion .bp3-button:not([class*=bp3-intent-]) {\n  box-shadow: none !important;\n  padding: 9px 10px !important;\n  border-radius: 5px !important;\n}\n.accordion .sub_category {\n  padding: 9px !important;\n}\n.accordion .bp3-button.active, .sub_category.active{\n  background-color: #66aff2 !important;\n  border-radius: 5px !important;\n}\n.accordion .bp3-button:hover, .sub_category:hover{\n  box-shadow: inset 0 0 0 2px #66aff2, inset 0 -1px 0 #66aff2 !important;\n  border-radius: 5px !important;\n}\n.accordion .bp3-button::after, .sub_category::after{\n  border: none !important;\n}\n.CUSTOM_ACCORDION_WIDGET{\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n}\n.modules {\n  left: var(--sideBarWidth)  !important;\n  padding: 0px !important;\n  width: calc(100% - var(--sideBarWidth) - var(--sideBarGap)) !important;\n\n}\n",
         "output": "str",
         "x": 280,
         "y": 60,
@@ -918,8 +901,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 320,
-        "y": 380,
+        "x": 330,
+        "y": 420,
         "wires": [
             []
         ]
@@ -945,12 +928,30 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 130,
-        "y": 380,
+        "x": 140,
+        "y": 420,
         "wires": [
             [
                 "61c07f425931fa4d"
             ]
+        ]
+    },
+    {
+        "id": "1d3227da3c0224e5",
+        "type": "template",
+        "z": "c740254358c79788",
+        "g": "b0ef14992c694846",
+        "name": "old",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "css",
+        "syntax": "mustache",
+        "template": "\nbody section{\n    background-color: #ffffff!important;\n}\ninput, .rc-select-show-arrow.rc-select-multiple .rc-select-selector, .select-button{\n  border-radius: 4px !important;\n}\n\nlabel {\n  border-radius: 4px !important;\n}\n\nspan > textarea {\n  border-radius: 4px !important;\n}\n.bp3-button .bp3-input-group{\n  border-radius: 8px!important;\n}\n::-webkit-scrollbar {\n  width: 0.1px;\n}\n\n.bp3-overlay{\nz-index: 5 !important;\n}\n\ndiv[id=\"comment-overlay-wrapper-0\"]\n  .bp3-overlay-content.bp3-overlay-appear-done {\n  height: 90vh !important;\n  max-height: 90vh !important;\n  border-radius: 10px !important;\n  box-shadow: 0px 6px 14px -4px rgb(255 255 255 / 88%) !important;\n  \n}\n.sidemenu {\n  background-color: #FFFFFF !important;\n  \n}\n\n.loginForm_wrapper > div > div > div > div > div {\n  border-radius: 30px !important\n}\n.loginForm_wrapper:before,\n.loginForm_wrapper:after {\n  z-index: -1 !important;\n  position: absolute !important;\n  content: \"\" !important;\n  bottom: 18px !important;\n  left: 10px !important;\n  width: 50% !important;\n  top: 80% !important;\n  max-width: 300px !important;\n  background: #777 !important;\n  box-shadow: 0 18px 10px #777 !important;\n  transform: rotate(-3deg) !important;\n  border-radius: 10px !important;\n}\n\n.loginForm_wrapper:after {\n  transform: rotate(3deg) !important;\n  right: 10px !important;\n  left: auto !important;\n}\n\n.loginForm_btnWrapper > div > div> div> div> div> div> div> div> div> div> div> div> div {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n}\n\n.loginForm_divider {\n  flex-grow: 1 !important;\n}\n\n.addUserModal_select button {\n  height: 40px !important;\n}\n\n.addUserModal_multiSelect div.rc-select-multiple {\n  height: 40px !important;\n}\n\n.accordionBtnWrapper button{\n  border-radius: 5px !important;\n  margin-bottom: 10px !important;\n  border: 1px solid #3366FF !important;    \n} \n\n.tabs {\n  top:0 !important;\n  left: 0 !important; \n  height: 100vh !important;\n  width: 100% !important;\n  padding: 10px !important;\n  background-image: linear-gradient(180deg, #ffffff 25%, #68adeed9 100%) !important;\n  }\n\n.tabs>div>div>div>div>div {\n  background-color: transparent !important;\n}\n\n.tabs>div>div>div>div {\n  box-shadow: none !important;\n}\n\n.center_container{\n  top: 50% !important;\n  left: 50% !important;\n  transform: translate(-50%, -50%) !important;\n}\n.centerUp_container{\n  top: 5% !important;\n  left: 50% !important;\n  transform: translate(-50%, -5%) !important;\n}\n\n.sidebar{\n  position: fixed !important;\n  height: 100vh !important;\n  top: 0 !important;\n  left: 0 !important;\n  padding: 0px !important;\n  width: 160px !important;\n  box-shadow: 9px 0px 4px -6px rgba(199,199,199,0.7) !important;\n  background-image: linear-gradient(180deg, #ffffff 25%, #68adeed9 100%) !important;\n  z-index: 5 !important;\n}\n.logo{\n  width: 160px !important;\n  left:0 !important;\n}\n.header{\n  top: 0 !important;\n  left: 167px !important;\n  padding: 0px !important; \n  /* width: calc(100% - 160px) !important; */\n  height: 60px !important;\n}\n.accordion{\n  padding: 9px !important;\n  width: 100% !important;\n  \n}\n.accordion .bp3-button:not([class*=bp3-intent-]) {\n  box-shadow: none !important;\n  padding: 9px 10px !important;\n  border-radius: 5px !important;\n}\n.accordion .sub_category {\n  padding: 9px !important;\n}\n.accordion .bp3-button.active, .sub_category.active{\n  background-color: #66aff2 !important;\n  border-radius: 5px !important;\n}\n.accordion .bp3-button:hover, .sub_category:hover{\n  box-shadow: inset 0 0 0 2px #66aff2, inset 0 -1px 0 #66aff2 !important;\n  border-radius: 5px !important;\n}\n.accordion .bp3-button::after, .sub_category::after{\n  border: none !important;\n}\n.CUSTOM_ACCORDION_WIDGET{\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n}\n.modules{\n    left: 167px  !important;\n    padding: 0px !important;\n    /* width: calc(100% - 167px) !important; */\n    \n}\n",
+        "output": "str",
+        "x": 270,
+        "y": 100,
+        "wires": [
+            []
         ]
     },
     {
